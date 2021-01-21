@@ -1,0 +1,17 @@
+'#Language "WWB-COM"
+
+Option Explicit
+
+Sub Main
+Get FILE='C:\Users\Home\Documents\Omar\Python\Excel\MyNewQualtricsDownload\STATE LEADER SURVEY_ Supporting Immigrant Families (2020-2021) - CA.sav'.
+DATASET Name DataSet1 WINDOW=FRONT.
+
+Get
+  FILE='C:\Users\Home\Documents\Omar\Python\Excel\MyNewQualtricsDownload\STATE LEADER SURVEY_ Supporting Immigrant Families (2020-2021) - NJ.sav'.
+DATASET Name DataSet2 WINDOW=FRONT.
+
+ADD FILES /FILE=*
+  /FILE='MergedFile'.
+Execute.
+
+End Sub

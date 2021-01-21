@@ -1,0 +1,1890 @@
+# https: //api.qualtrics.com/guides/reference/surveyDefinitions.json/paths/~1survey-definitions~1%7BsurveyId%7D
+{
+    "meta": {
+        "httpStatus": "200 - OK",
+        "requestId": "b5ea6f72-ba96-49eb-84bb-53c67b0a3d77"
+    },
+    "result": {
+        "QuestionCount": "32",
+        "SurveyOptions": {
+            "BackButton": "false",
+            "SaveAndContinue": "true",
+            "SurveyProtection": "PublicSurvey",
+            "BallotBoxStuffingPrevention": "false",
+            "NoIndex": "Yes",
+            "SecureResponseFiles": "true",
+            "SurveyExpiration": null,
+            "SurveyTermination": "DefaultMessage",
+            "Header": "",
+            "Footer": "",
+            "ProgressBarDisplay": "Text",
+            "PartialData": "+3 month",
+            "ValidationMessage": null,
+            "PreviousButton": " ← ",
+            "NextButton": " → ",
+            "SkinLibrary": "rowan",
+            "SkinType": "MQ",
+            "Skin": "rowan1",
+            "NewScoring": 1,
+            "QuestionsPerPage": "4",
+            "EOSMessage": "",
+            "ShowExportTags": "true",
+            "CollectGeoLocation": "false",
+            "SurveyTitle": "State Leader Survey - Supporting Immigrant Families of Young Children (birth-5)",
+            "SurveyMetaDescription": "Qualtrics sophisticated online survey software solutions make creating online surveys easy. Learn more about Research Suite and get a free account today.",
+            "PasswordProtection": "No",
+            "AnonymizeResponse": "No",
+            "Password": "",
+            "RefererCheck": "No",
+            "RefererURL": "http://",
+            "UseCustomSurveyLinkCompletedMessage": null,
+            "SurveyLinkCompletedMessage": "",
+            "SurveyLinkCompletedMessageLibrary": "",
+            "ResponseSummary": "No",
+            "EOSMessageLibrary": "",
+            "EOSRedirectURL": "https://",
+            "EmailThankYou": "false",
+            "ThankYouEmailMessageLibrary": null,
+            "ThankYouEmailMessage": null,
+            "ValidateMessage": "false",
+            "ValidationMessageLibrary": null,
+            "InactiveSurvey": "DefaultMessage",
+            "PartialDataCloseAfter": "LastActivity",
+            "ActiveResponseSet": "RS_dcXBwdYABIqSOXj",
+            "InactiveMessageLibrary": "",
+            "InactiveMessage": "",
+            "AvailableLanguages": {
+                "EN": []
+            },
+            "SurveyName": "STATE LEADER SURVEY: Supporting Immigrant Families (2020-2021) - NJ",
+            "BallotBoxStuffingPreventionBehavior": null,
+            "BallotBoxStuffingPreventionMessage": null,
+            "BallotBoxStuffingPreventionMessageLibrary": null,
+            "BallotBoxStuffingPreventionURL": null,
+            "RecaptchaV3": "false",
+            "ConfirmStart": false,
+            "AutoConfirmStart": false,
+            "SkinQuestionWidth": 700,
+            "SurveyLanguage": "EN",
+            "SurveyStartDate": null,
+            "SurveyExpirationDate": null,
+            "SurveyCreationDate": "2019-10-22T01:44:45Z"
+        },
+        "SurveyID": "SV_9HK648eZkIQNoYR",
+        "SurveyName": "STATE LEADER SURVEY: Supporting Immigrant Families (2020-2021) - NJ",
+        "SurveyStatus": "Active",
+        "LastModified": "2021-01-12T02:34:21Z",
+        "BrandID": "rowan",
+        "OwnerID": "UR_bsdUJDrIjjMFBeB",
+        "LastAccessed": null,
+        "CreatorID": "UR_bsdUJDrIjjMFBeB",
+        "LastActivated": "2019-10-28T19:06:42Z",
+        "Questions": {
+            "QID23": {
+                "QuestionText": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\">Approximate number of <strong>total hours you have personally learned</strong> about working with immigrant families <strong>through professional development (since earning your degree)?</strong></span></span></span>",
+                "DataExportTag": "Q25",
+                "QuestionType": "MC",
+                "Selector": "SAVR",
+                "SubSelector": "TX",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "Approximate number of total hours you have personally learned about working with immigrant famili...",
+                "Choices": {
+                    "6": {
+                        "Display": "Less than 1 hour"
+                    },
+                    "7": {
+                        "Display": "1-2 hours"
+                    },
+                    "8": {
+                        "Display": "3-5 hours"
+                    },
+                    "9": {
+                        "Display": "6-10 hours"
+                    },
+                    "10": {
+                        "Display": "more than 10 hours"
+                    }
+                },
+                "ChoiceOrder": [
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10"
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "OFF",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "Language": [],
+                "NextChoiceId": 11,
+                "NextAnswerId": 1,
+                "QuestionID": "QID23",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "QuestionText_Unsafe": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\">Approximate number of <strong>total hours you have personally learned</strong> about working with immigrant families <strong>through professional development (since earning your degree)?</strong></span></span></span>",
+                "DefaultChoices": false,
+                "GradingData": []
+            },
+            "QID22": {
+                "QuestionText": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\">Approximate number of <strong>total hours you recall learning</strong> about working with immigrant families in <strong>your training program as part of your degree?</strong></span></span></span>",
+                "DefaultChoices": false,
+                "DataExportTag": "Q24",
+                "QuestionID": "QID22",
+                "QuestionType": "MC",
+                "Selector": "SAVR",
+                "SubSelector": "TX",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "Approximate number of total hours you recall learning about working with immigrant families in yo...",
+                "Choices": {
+                    "7": {
+                        "Display": "Less than 1 hour"
+                    },
+                    "8": {
+                        "Display": "1-2 hours"
+                    },
+                    "9": {
+                        "Display": "3-5 hours"
+                    },
+                    "10": {
+                        "Display": "6-10 hours"
+                    },
+                    "11": {
+                        "Display": "more than 10 hours"
+                    }
+                },
+                "ChoiceOrder": [
+                    "7",
+                    "8",
+                    "9",
+                    "10",
+                    "11"
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "OFF",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 12,
+                "NextAnswerId": 1,
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "QuestionText_Unsafe": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\">Approximate number of <strong>total hours you recall learning</strong> about working with immigrant families in <strong>your training program as part of your degree?</strong></span></span></span>"
+            },
+            "QID21": {
+                "QuestionText": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><span style=\"line-height: 115%;\"><strong>Average</strong> number of staff <strong>you supervise</strong>:</span></span></span></span>",
+                "DefaultChoices": false,
+                "DataExportTag": "Q23",
+                "QuestionID": "QID21",
+                "QuestionType": "TE",
+                "Selector": "SL",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "InputWidth": 72,
+                    "InputHeight": 29
+                },
+                "QuestionDescription": "Average number of staff you supervise:",
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "RequestResponse",
+                        "ForceResponseType": "RequestResponse",
+                        "Type": "ContentType",
+                        "ContentType": "ValidNumber",
+                        "ValidDateType": "DateWithFormat",
+                        "ValidPhoneType": "ValidUSPhone",
+                        "ValidZipType": "ValidUSZip",
+                        "ValidNumber": {
+                            "Min": "0",
+                            "Max": "1000"
+                        }
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "SearchSource": {
+                    "AllowFreeResponse": "false"
+                },
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "QuestionText_Unsafe": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><span style=\"line-height: 115%;\"><strong>Average</strong> number of staff <strong>you supervise</strong>:</span></span></span></span>"
+            },
+            "QID13": {
+                "QuestionText": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><strong>Below are some possible ideas on policy implementation to empower and build capacity among more first and second generation immigrant families. <u>Based on your experience, PLEASE SEPARATELY RATE *EACH* OF THE FOLLOWING ON A SCALE OF 1-5, where</u></strong></span></span></span>\n<div><br>\n<strong><o:p></o:p></strong>\n<p><span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><strong><em><u>1 = EXTREMELY UNLIKELY to help</u> immigrant families ☹</em></strong></span></span></span><strong><em><o:p></o:p></em></strong></p>\n\n<p><span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><strong><em><u>2 = SOMEWHAT UNLIKELY </u>to help immigrant families</em></strong></span></span></span><strong><em><o:p></o:p></em></strong></p>\n\n<p><span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><strong><em><u>3 = NEITHER LIKELY OR UNLIKELY</u> TO HELP immigrant families </em></strong></span></span></span><strong><em><o:p></o:p></em></strong></p>\n\n<p><span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><strong><em><u>4 = SOMEWHAT LIKELY to help</u> immigrant families</em></strong></span></span></span><strong><em><o:p></o:p></em></strong></p>\n\n<p><span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><strong><em><u>5 = EXTREMELY LIKELY to help&nbsp;</u>immigrant families ☺</em></strong></span></span></span><strong><em><o:p></o:p></em></strong></p>\n</div>",
+                "DefaultChoices": false,
+                "DataExportTag": "Q14",
+                "QuestionID": "QID13",
+                "QuestionType": "Matrix",
+                "Selector": "Likert",
+                "SubSelector": "SingleAnswer",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "TextPosition": "inline",
+                    "ChoiceColumnWidth": 25,
+                    "RepeatHeaders": "all",
+                    "WhiteSpace": "OFF",
+                    "MobileFirst": true
+                },
+                "QuestionDescription": "Below are some possible ideas on policy implementation to empower and build capacity among more f...",
+                "Choices": {
+                    "1": {
+                        "Display": "<strong><span style=\"color:#000000;\"><span style=\"background-color:#ffffff;\">University students receiving <u>more education on this topic in pre-service training</u>?</span></span></strong>"
+                    },
+                    "2": {
+                        "Display": "<strong><span style=\"color:#000000;\"><span style=\"background-color:#ffffff;\">State administrators and staff receiving <u>more education and training on this topic through Professional Development days</u>?</span></span></strong>"
+                    },
+                    "3": {
+                        "Display": "<strong><span style=\"color:#000000;\"><span style=\"background-color:#ffffff;\"><u>More mentoring and information sharing</u> between state administrators, staff, and professionals who work more directly with families?</span></span></strong>"
+                    },
+                    "4": {
+                        "Display": "<strong><span style=\"color:#000000;\"><span style=\"background-color:#ffffff;\">Policy and resources for <u>family-family connections for parents</u> to talk with others who have previously immigrated to the United States?</span></span></strong>"
+                    },
+                    "5": {
+                        "Display": "<span style=\"color:#000000;\"><strong><span style=\"background-color:#ffffff;\"><u>More tailored parent workshops</u> offered by state agencies or stakeholders specific to the needs of first or second generation immigrant families?</span></strong></span>"
+                    },
+                    "6": {
+                        "Display": "<strong><span style=\"color:#000000;\"><span style=\"background-color:#ffffff;\">More stakeholders/programs willing to do <u>at least one home visit </u>per year?</span></span></strong>"
+                    },
+                    "7": {
+                        "Display": "<strong><span style=\"color:#000000;\"><span style=\"background-color:#ffffff;\">More stakeholders/programs willing to do <u>ongoing home visits</u> throughout the year?</span></span></strong>"
+                    },
+                    "8": {
+                        "Display": "<strong><span style=\"color:#000000;\"><span style=\"background-color:#ffffff;\">More <u>resource fairs</u> in this community, to support immigrant families with a range of holistic needs (e.g., employment, housing, food, clothing)?</span></span></strong>"
+                    },
+                    "9": {
+                        "Display": "<strong><span style=\"color:#000000;\"><span style=\"background-color:#ffffff;\">More program materials <u>translated </u>into different languages?</span></span></strong>"
+                    },
+                    "10": {
+                        "Display": "<strong><span style=\"color:#000000;\"><span style=\"background-color:#ffffff;\"><u>More medical professionals</u> (e.g., dentists, doctors) visiting throughout the year to periodically offer services to immigrant parents and children (e.g., &lsquo;van services&rsquo;)?</span></span></strong>"
+                    },
+                    "11": {
+                        "Display": "<strong><span style=\"color:#000000;\"><span style=\"background-color:#ffffff;\"><u>Orientation programs for newly settled immigrant families</u> (e.g., assistance for housing, school registration, vaccination, job search, driver&#39;s license)?</span></span></strong>"
+                    },
+                    "12": {
+                        "Display": "<strong><span style=\"color:#000000;\"><span style=\"background-color:#ffffff;\"><u>Stronger collaboration between the educational institutions and state departments / community supports</u> to better meet the children&#39;s educational needs?</span></span></strong>"
+                    },
+                    "13": {
+                        "Display": "<strong><span style=\"color:#000000;\"><span style=\"background-color:#ffffff;\"><u>Outreach campaigns or local partnership programs</u> that target immigrant families.</span></span></strong>"
+                    },
+                    "14": {
+                        "Display": "<span style=\"color:#000000;\"><strong><span style=\"background-color:#ffffff;\"><u>Inclusive public welfare and health insurance </u>support for all immigrant families with young children.</span></strong></span>"
+                    },
+                    "15": {
+                        "Display": "<strong><span style=\"color:#000000;\"><span style=\"background-color:#ffffff;\"><u>Full time kindergarten and PreK </u>for all children to support academic achievement and child development</span></span></strong>"
+                    },
+                    "16": {
+                        "Display": "<strong><span style=\"color:#000000;\"><span style=\"background-color:#ffffff;\">State funding for tailored educational programs such as <u>community education and after school activities</u> that support immigrant families.</span></span></strong>"
+                    },
+                    "17": {
+                        "Display": "<strong><span style=\"color:#000000;\"><span style=\"background-color:#ffffff;\"><u>English and other language classes</u> for immigrant parents and children.</span></span></strong>"
+                    },
+                    "18": {
+                        "Display": "<strong>More <u>Early Childhood Programs</u> to develop/ nurture young children&#39;s readiness for school.</strong>"
+                    }
+                },
+                "ChoiceOrder": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    "18",
+                    15,
+                    16,
+                    17
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "RequestResponse",
+                        "ForceResponseType": "RequestResponse",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 19,
+                "NextAnswerId": 6,
+                "Answers": {
+                    "1": {
+                        "Display": "<strong>EXTREMELY <u><span style=\"background-color:#dddddd;\">UNLIKELY</span></u></strong><u><span style=\"background-color:#dddddd;\"> </span></u>TO HELP"
+                    },
+                    "2": {
+                        "Display": "SOMEWHAT UNLIKELY TO HELP"
+                    },
+                    "3": {
+                        "Display": "NEITHER LIKELY OR UNLIKELY TO HELP"
+                    },
+                    "4": {
+                        "Display": "SOMEWHAT LIKELY TO HELP"
+                    },
+                    "5": {
+                        "Display": "<strong>EXTREMELY <u><span style=\"background-color:#dddddd;\">LIKELY </span></u>TO HELP</strong>"
+                    }
+                },
+                "AnswerOrder": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "ChoiceDataExportTags": false,
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "QuestionText_Unsafe": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><strong>Below are some possible ideas on policy implementation to empower and build capacity among more first and second generation immigrant families. <u>Based on your experience, PLEASE SEPARATELY RATE *EACH* OF THE FOLLOWING ON A SCALE OF 1-5, where</u></strong></span></span></span>\n<div><br>\n<strong><o:p></o:p></strong>\n<p><span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><strong><em><u>1 = EXTREMELY UNLIKELY to help</u> immigrant families ☹</em></strong></span></span></span><strong><em><o:p></o:p></em></strong></p>\n\n<p><span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><strong><em><u>2 = SOMEWHAT UNLIKELY </u>to help immigrant families</em></strong></span></span></span><strong><em><o:p></o:p></em></strong></p>\n\n<p><span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><strong><em><u>3 = NEITHER LIKELY OR UNLIKELY</u> TO HELP immigrant families </em></strong></span></span></span><strong><em><o:p></o:p></em></strong></p>\n\n<p><span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><strong><em><u>4 = SOMEWHAT LIKELY to help</u> immigrant families</em></strong></span></span></span><strong><em><o:p></o:p></em></strong></p>\n\n<p><span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><strong><em><u>5 = EXTREMELY LIKELY to help&nbsp;</u>immigrant families ☺</em></strong></span></span></span><strong><em><o:p></o:p></em></strong></p>\n</div>"
+            },
+            "QID29": {
+                "QuestionText": "<span style=\"font-weight: bolder; font-size: 16px;\"><span style=\"color: windowtext;\">Has your department/ division/ office implemented&nbsp;<u>an INITIATIVE (e.g., policy/program) to best support</u>&nbsp;first or second generation immigrant /refugee families?&nbsp;</span></span><o:p></o:p>",
+                "DataExportTag": "Q11",
+                "QuestionType": "MC",
+                "Selector": "SAVR",
+                "SubSelector": "TX",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "Has your department/ division/ office implemented an INITIATIVE (e.g., policy/program) to best su...",
+                "Choices": {
+                    "1": {
+                        "Display": "Yes; please briefly explain this initiative (its focus, duration and outcomes)",
+                        "TextEntry": "true",
+                        "InputHeight": 24,
+                        "InputWidth": 608,
+                        "TextEntrySize": "Large"
+                    },
+                    "3": {
+                        "Display": "No"
+                    }
+                },
+                "ChoiceOrder": [
+                    1,
+                    "3"
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "ON",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "Language": [],
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "QuestionID": "QID29",
+                "QuestionText_Unsafe": "<span style=\"font-weight: bolder; font-size: 16px;\"><span style=\"color: windowtext;\">Has your department/ division/ office implemented&nbsp;<u>an INITIATIVE (e.g., policy/program) to best support</u>&nbsp;first or second generation immigrant /refugee families?&nbsp;</span></span><o:p></o:p>"
+            },
+            "QID9": {
+                "QuestionText": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\">Has <strong>your department/ division/ office</strong>&nbsp;e<span style=\"background-color:#ffffff;\">ver implemented</span><strong><span style=\"background-color:#ffffff;\"> professional development </span><u><span style=\"background-color:#ffffff;\">for staff</span></u><span style=\"background-color:#ffffff;\"> </span></strong><span style=\"background-color:#ffffff;\">on</span> how <strong>best to support first or second generation immigrant families with young children</strong>?&nbsp; </span>&nbsp;</span></span><o:p></o:p>",
+                "DataExportTag": "Q9",
+                "QuestionType": "MC",
+                "Selector": "SAVR",
+                "SubSelector": "TX",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "Has your department/ division/ office ever implemented professional development for staff on how...",
+                "Choices": {
+                    "1": {
+                        "Display": "Yes; please briefly explain the duration of this training and the context – what was the issue that you were trying to address?",
+                        "TextEntry": "true",
+                        "InputHeight": 24,
+                        "InputWidth": 608
+                    },
+                    "2": {
+                        "Display": "No. Please briefly explain.",
+                        "TextEntry": "true"
+                    }
+                },
+                "ChoiceOrder": [
+                    1,
+                    2
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "ON",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "Language": [],
+                "NextChoiceId": 3,
+                "NextAnswerId": 1,
+                "QuestionID": "QID9",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "QuestionText_Unsafe": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\">Has <strong>your department/ division/ office</strong>&nbsp;e<span style=\"background-color:#ffffff;\">ver implemented</span><strong><span style=\"background-color:#ffffff;\"> professional development </span><u><span style=\"background-color:#ffffff;\">for staff</span></u><span style=\"background-color:#ffffff;\"> </span></strong><span style=\"background-color:#ffffff;\">on</span> how <strong>best to support first or second generation immigrant families with young children</strong>?&nbsp; </span>&nbsp;</span></span><o:p></o:p>"
+            },
+            "QID14": {
+                "QuestionText": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><span style=\"line-height: 115%;\"><strong>If applicable, please describe other </strong>initiatives, supports, or services in your department/ division/ office that may support immigrant families (please briefly explain the <strong>scope and duration</strong> of these initiatives)</span></span></span></span>",
+                "DefaultChoices": false,
+                "DataExportTag": "Q15",
+                "QuestionType": "TE",
+                "Selector": "ML",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "InputWidth": 680,
+                    "InputHeight": 190
+                },
+                "QuestionDescription": "If applicable, please describe other initiatives, supports, or services in your department/ divis...",
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "RequestResponse",
+                        "ForceResponseType": "RequestResponse",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "SearchSource": {
+                    "AllowFreeResponse": "false"
+                },
+                "QuestionID": "QID14",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "QuestionText_Unsafe": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><span style=\"line-height: 115%;\"><strong>If applicable, please describe other </strong>initiatives, supports, or services in your department/ division/ office that may support immigrant families (please briefly explain the <strong>scope and duration</strong> of these initiatives)</span></span></span></span>"
+            },
+            "QID26": {
+                "QuestionText": "<span style=\"color:#2980b9;\"><span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><strong><span style=\"background-color:#ffffff;\">If you are willing to participate in an additional 1 hour virtual focus group to further help us understand state policies to support immigrant families with young children, <u>please provide your E-MAIL (</u></span><u>in the below space) so we can reach out to you to set up a focus group discussion</u>.&nbsp;&nbsp;</strong></span></span></span>\n<div><span style=\"color:#9b59b6;\"><em><span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\">(If you are done with this survey, please click SUBMIT below.)</span></span></em></span>\n<div>&nbsp;</div>\n\n<div><span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><strong>&nbsp;</strong></span></span></span></div>\n</div>",
+                "DefaultChoices": false,
+                "DataExportTag": "Q27",
+                "QuestionType": "TE",
+                "Selector": "SL",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "InputWidth": 661,
+                    "InputHeight": 29
+                },
+                "QuestionDescription": "If you are willing to participate in an additional 1 hour virtual focus group to further help us...",
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "RequestResponse",
+                        "ForceResponseType": "RequestResponse",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "SearchSource": {
+                    "AllowFreeResponse": "false"
+                },
+                "QuestionID": "QID26",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "QuestionText_Unsafe": "<span style=\"color:#2980b9;\"><span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><strong><span style=\"background-color:#ffffff;\">If you are willing to participate in an additional 1 hour virtual focus group to further help us understand state policies to support immigrant families with young children, <u>please provide your E-MAIL (</u></span><u>in the below space) so we can reach out to you to set up a focus group discussion</u>.&nbsp;&nbsp;</strong></span></span></span>\n<div><span style=\"color:#9b59b6;\"><em><span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\">(If you are done with this survey, please click SUBMIT below.)</span></span></em></span>\n<div>&nbsp;</div>\n\n<div><span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><strong>&nbsp;</strong></span></span></span></div>\n</div>"
+            },
+            "QID15": {
+                "QuestionText": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><span style=\"line-height: 115%;\">If you have <strong><u>OTHER ideas</u></strong></span><u><span style=\"line-height: 115%;\"> for change in policy and/or practice that you suspect will likely support </span></u><span style=\"line-height: 115%;\">immigrant families, different from what we mention above, please list them here</span></span></span></span>",
+                "DefaultChoices": false,
+                "DataExportTag": "Q16",
+                "QuestionType": "TE",
+                "Selector": "ML",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "InputWidth": 671,
+                    "InputHeight": 158
+                },
+                "QuestionDescription": "If you have OTHER ideas for change in policy and/or practice that you suspect will likely support...",
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "RequestResponse",
+                        "ForceResponseType": "RequestResponse",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "SearchSource": {
+                    "AllowFreeResponse": "false"
+                },
+                "QuestionID": "QID15",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "QuestionText_Unsafe": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><span style=\"line-height: 115%;\">If you have <strong><u>OTHER ideas</u></strong></span><u><span style=\"line-height: 115%;\"> for change in policy and/or practice that you suspect will likely support </span></u><span style=\"line-height: 115%;\">immigrant families, different from what we mention above, please list them here</span></span></span></span>"
+            },
+            "QID7": {
+                "QuestionText": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><strong>In your experience, plea<span style=\"background-color:#ffffff;\">se</span><u><span style=\"background-color:#ffffff;\"> RATE each of the following </span></u><span style=\"background-color:#ffffff;\">(1 = LEAST likely roadblock; 7 = MOST likely roadblock) in terms of </span><u><span style=\"background-color:#ffffff;\">how likely it is to be a ROADBLOCK or OBSTACLE</span></u><span style=\"background-color:#ffffff;\"> facing the </span><u><span style=\"background-color:#ffffff;\">majority of first generation immigrant families in YOUR particular Department / Division / Office</span></u></strong></span></span></span><o:p></o:p>",
+                "DefaultChoices": false,
+                "DataExportTag": "Q7",
+                "QuestionType": "Matrix",
+                "Selector": "Likert",
+                "SubSelector": "SingleAnswer",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "TextPosition": "inline",
+                    "ChoiceColumnWidth": 25,
+                    "RepeatHeaders": "all",
+                    "WhiteSpace": "OFF",
+                    "MobileFirst": true
+                },
+                "QuestionDescription": "In your experience, please RATE each of the following (1 = LEAST likely roadblock; 7 = MOST likel...",
+                "Choices": {
+                    "1": {
+                        "Display": "<u><span style=\"color:#000000;\"><strong><span style=\"background-color:#ffffff;\">Not having family live in close proximity</span></strong></span></u>"
+                    },
+                    "2": {
+                        "Display": "<span style=\"color:#000000;\"><strong><span style=\"background-color:#ffffff;\"><u>Not having strong connections with other families</u> in the community</span></strong></span>"
+                    },
+                    "3": {
+                        "Display": "<span style=\"color:#000000;\"><strong><span style=\"background-color:#ffffff;\"><u>Not knowing how to navigate</u> across systems/programs/agencies</span></strong></span>"
+                    },
+                    "4": {
+                        "Display": "<u><span style=\"color:#000000;\"><strong><span style=\"background-color:#ffffff;\">Working long hours and/or multiple jobs</span></strong></span></u>"
+                    },
+                    "5": {
+                        "Display": "<strong><span style=\"color:#000000;\"><span style=\"background-color:#ffffff;\"><u>Cultural differences in how things are done</u> in the United States</span></span></strong>"
+                    },
+                    "6": {
+                        "Display": "<u><span style=\"color:#000000;\"><strong><span style=\"background-color:#ffffff;\">Language barrier</span></strong></span></u>"
+                    },
+                    "7": {
+                        "Display": "<span style=\"color:#000000;\"><strong><span style=\"background-color:#ffffff;\"><u>Government policies</u> in the United States</span></strong></span>"
+                    },
+                    "8": {
+                        "Display": "<span style=\"color:#000000;\"><strong><span style=\"background-color:#ffffff;\"><u>Political/social rhetoric (persuasive speech) in news/mass media</u> in the United States</span></strong></span>"
+                    },
+                    "9": {
+                        "Display": "<span style=\"color:#000000;\"><strong><span style=\"background-color:#ffffff;\">On-the-street climate towards immigrant families in the United States (attitudes in local communities)</span></strong></span>"
+                    },
+                    "10": {
+                        "Display": "<strong><span style=\"color:#000000;\"><span style=\"background-color:#ffffff;\"><u>Not having access to critical resources</u> (food security, health insurance, safe housing and neighborhoods</span></span></strong><span style=\"background-color:#ffffff;\">)</span>"
+                    },
+                    "11": {
+                        "Display": "<span style=\"color:#000000;\"><strong><span style=\"background-color:#ffffff;\"><u>Fear of using public welfare and healthcare programs</u> due to restrictive and anti-immigrant policies</span></strong></span>"
+                    }
+                },
+                "ChoiceOrder": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "RequestResponse",
+                        "ForceResponseType": "RequestResponse",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 12,
+                "NextAnswerId": 8,
+                "Answers": {
+                    "1": {
+                        "Display": "<u><strong>EXTREMELY UNLIKELY</strong></u> TO BE A ROADBLOCK"
+                    },
+                    "2": {
+                        "Display": "UNLIKELY TO BE A ROADBLOCK"
+                    },
+                    "3": {
+                        "Display": "SOMEWHAT UNLIKELY TO BE A ROADBLOCK"
+                    },
+                    "4": {
+                        "Display": "NEITHER LIKELY NOR UNLIKELY TO BE A ROADBLOCK"
+                    },
+                    "5": {
+                        "Display": "SOMEWHAT LIKELY TO BE A ROADBLOCK"
+                    },
+                    "6": {
+                        "Display": "LIKELY TO BE A ROADBLOCK"
+                    },
+                    "7": {
+                        "Display": "<u><strong>EXTREMELY LIKELY</strong></u> TO BE A ROADBLOCK"
+                    }
+                },
+                "AnswerOrder": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                ],
+                "ChoiceDataExportTags": false,
+                "QuestionID": "QID7",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "QuestionText_Unsafe": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><strong>In your experience, plea<span style=\"background-color:#ffffff;\">se</span><u><span style=\"background-color:#ffffff;\"> RATE each of the following </span></u><span style=\"background-color:#ffffff;\">(1 = LEAST likely roadblock; 7 = MOST likely roadblock) in terms of </span><u><span style=\"background-color:#ffffff;\">how likely it is to be a ROADBLOCK or OBSTACLE</span></u><span style=\"background-color:#ffffff;\"> facing the </span><u><span style=\"background-color:#ffffff;\">majority of first generation immigrant families in YOUR particular Department / Division / Office</span></u></strong></span></span></span><o:p></o:p>"
+            },
+            "QID8": {
+                "QuestionText": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><strong><span style=\"line-height: 115%;\">In your experience, <u>please RATE each of the following</u> (1 = LEAST likely roadblock; 7 = MOST likely roadblock) in <span style=\"background-color:#ffffff;\">terms of </span><u><span style=\"background-color:#ffffff;\">how likely it is to be a ROADBLOCK or OBSTACLE</span></u><span style=\"background-color:#ffffff;\"> facing the majority of </span><u><span style=\"background-color:#ffffff;\">staff in YOUR DEPARTMENT / DIVISION / OFFICE:</span></u></span></strong></span></span></span>",
+                "DefaultChoices": false,
+                "DataExportTag": "Q8",
+                "QuestionType": "Matrix",
+                "Selector": "Likert",
+                "SubSelector": "SingleAnswer",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "TextPosition": "inline",
+                    "ChoiceColumnWidth": 25,
+                    "RepeatHeaders": "all",
+                    "WhiteSpace": "OFF",
+                    "MobileFirst": true
+                },
+                "QuestionDescription": "In your experience, please RATE each of the following (1 = LEAST likely roadblock; 7 = MOST likel...",
+                "Choices": {
+                    "1": {
+                        "Display": "<span style=\"color:#000000;\"><strong><span style=\"background-color:#ffffff;\">State staff </span><u><span style=\"background-color:#ffffff;\">lacking stable language resources</span></u><span style=\"background-color:#ffffff;\"> (e.g., translation services, enough bilingual providers) in serving this group of families</span></strong></span>"
+                    },
+                    "2": {
+                        "Display": "<strong><span style=\"color:#000000;\"><span style=\"background-color:#ffffff;\"><u>Not having expertise in state about immigrant families&rsquo; cultures and lived experiences</u>?</span></span></strong>"
+                    },
+                    "3": {
+                        "Display": "<u><strong><span style=\"color:#000000;\"><span style=\"background-color:#ffffff;\">Not having support staff in state who know how to tailor policy/ supports/ recommendations based on immigrant families&rsquo; cultures and lived experiences?</span></span></strong></u>"
+                    }
+                },
+                "ChoiceOrder": [
+                    "1",
+                    "2",
+                    "3"
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "RequestResponse",
+                        "ForceResponseType": "RequestResponse",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 4,
+                "NextAnswerId": 8,
+                "Answers": {
+                    "1": {
+                        "Display": "<strong><u>EXTREMELY UNLIKELY</u> </strong>TO BE A ROADBLOCK"
+                    },
+                    "2": {
+                        "Display": "UNLIKELY TO BE A ROADBLOCK"
+                    },
+                    "3": {
+                        "Display": "SOMEWHAT UNLIKELY TO BE A ROADBLOCK"
+                    },
+                    "4": {
+                        "Display": "NEITHER LIKELY NOR UNLIKELY TO BE A ROADBLOCK"
+                    },
+                    "5": {
+                        "Display": "SOMEWHAT LIKELY TO BE A ROADBLOCK"
+                    },
+                    "6": {
+                        "Display": "LIKELY TO BE A ROADBLOCK"
+                    },
+                    "7": {
+                        "Display": "<u><strong>EXTREMELY LIKELY </strong></u>TO BE A ROADBLOCK"
+                    }
+                },
+                "AnswerOrder": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                ],
+                "ChoiceDataExportTags": false,
+                "QuestionID": "QID8",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "QuestionText_Unsafe": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><strong><span style=\"line-height: 115%;\">In your experience, <u>please RATE each of the following</u> (1 = LEAST likely roadblock; 7 = MOST likely roadblock) in <span style=\"background-color:#ffffff;\">terms of </span><u><span style=\"background-color:#ffffff;\">how likely it is to be a ROADBLOCK or OBSTACLE</span></u><span style=\"background-color:#ffffff;\"> facing the majority of </span><u><span style=\"background-color:#ffffff;\">staff in YOUR DEPARTMENT / DIVISION / OFFICE:</span></u></span></strong></span></span></span>"
+            },
+            "QID17": {
+                "QuestionText": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"line-height: 115%; color: black;\">Number of <strong>years</strong> working at <strong>this site</strong></span></span></span>",
+                "DefaultChoices": false,
+                "DataExportTag": "Q19",
+                "QuestionType": "TE",
+                "Selector": "SL",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "InputWidth": 60,
+                    "InputHeight": 28
+                },
+                "QuestionDescription": "Number of years working at this site",
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "RequestResponse",
+                        "ForceResponseType": "RequestResponse",
+                        "Type": "ContentType",
+                        "ContentType": "ValidNumber",
+                        "ValidDateType": "DateWithFormat",
+                        "ValidPhoneType": "ValidUSPhone",
+                        "ValidZipType": "ValidUSZip"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "SearchSource": {
+                    "AllowFreeResponse": "false"
+                },
+                "QuestionID": "QID17",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "QuestionText_Unsafe": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"line-height: 115%; color: black;\">Number of <strong>years</strong> working at <strong>this site</strong></span></span></span>"
+            },
+            "QID12": {
+                "QuestionText": "<p><span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><strong>On a scale of 1-5 (1 = extremely unhelpful; 5 = extremely helpful), <u>to what extent do you feel this initiative</u>&nbsp;was helpful in supporting immigrant families?</strong></span></span></span><strong><o:p></o:p></strong></p>",
+                "DefaultChoices": false,
+                "DataExportTag": "Q13",
+                "QuestionID": "QID12",
+                "QuestionType": "MC",
+                "Selector": "SAVR",
+                "SubSelector": "TX",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "TextPosition": "inline"
+                },
+                "QuestionDescription": "On a scale of 1-5 (1 = extremely unhelpful; 5 = extremely helpful), to what extent do you feel th...",
+                "Choices": {
+                    "1": {
+                        "Display": "<strong>Extremely <u>HELPFUL</u></strong>",
+                        "TextEntry": "true"
+                    },
+                    "2": {
+                        "Display": "<strong>Somewhat helpful</strong>",
+                        "TextEntry": "true"
+                    },
+                    "3": {
+                        "Display": "<strong>Neither helpful nor unhelpful</strong>",
+                        "TextEntry": "true"
+                    },
+                    "4": {
+                        "Display": "<strong>Somewhat unhelpful</strong>",
+                        "TextEntry": "true"
+                    },
+                    "5": {
+                        "Display": "<strong>Extremely <u>UNHELPFUL</u></strong>",
+                        "TextEntry": "true"
+                    }
+                },
+                "ChoiceOrder": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "RequestResponse",
+                        "ForceResponseType": "RequestResponse",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 6,
+                "NextAnswerId": 6,
+                "QuestionText_Unsafe": "<p><span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><strong>On a scale of 1-5 (1 = extremely unhelpful; 5 = extremely helpful), <u>to what extent do you feel this initiative</u>&nbsp;was helpful in supporting immigrant families?</strong></span></span></span><strong><o:p></o:p></strong></p>",
+                "DisplayLogic": {
+                    "0": {
+                        "0": {
+                            "ChoiceLocator": "q://QID29/SelectableChoice/1",
+                            "Description": "<span class=\"ConjDesc\">If</span> <span class=\"QuestionDesc\">Has your department/ division/ office implemented&nbsp;an INITIATIVE (e.g., policy/program) to best su...</span> <span class=\"LeftOpDesc\">Yes; please briefly explain this initiative (its focus, duration and outcomes)</span> <span class=\"OpDesc\">Is Selected</span> ",
+                            "LeftOperand": "q://QID29/SelectableChoice/1",
+                            "LogicType": "Question",
+                            "Operator": "Selected",
+                            "QuestionID": "QID29",
+                            "QuestionIDFromLocator": "QID29",
+                            "QuestionIsInLoop": "no",
+                            "Type": "Expression"
+                        },
+                        "Type": "If"
+                    },
+                    "Type": "BooleanExpression",
+                    "inPage": false
+                }
+            },
+            "QID31": {
+                "QuestionText": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><strong>On a scale of 1-5 (1 = extremely unhelpful; 5 = extremely helpful), to <u>what extent do you feel this training was helpf<span style=\"background-color:#ffffff;\">ul in &nbsp;increasing staff qualifications to support immigrant families with young children?</span></u></strong></span></span></span>\n<p><strong><span style=\"color:black\"><o:p></o:p></span></strong></p>",
+                "DefaultChoices": false,
+                "DataExportTag": "Q10",
+                "QuestionType": "MC",
+                "Selector": "SAVR",
+                "SubSelector": "TX",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "On a scale of 1-5 (1 = extremely unhelpful; 5 = extremely helpful), to what extent do you feel th...",
+                "Choices": {
+                    "1": {
+                        "Display": "<strong>Extremely HELPFUL</strong>",
+                        "TextEntry": "true",
+                        "InputHeight": 29,
+                        "InputWidth": 150
+                    },
+                    "2": {
+                        "Display": "<strong>Somewhat helpful</strong>",
+                        "TextEntry": "true",
+                        "TextEntrySize": "Medium"
+                    },
+                    "3": {
+                        "Display": "<strong>Neither helpful nor unhelpful</strong>",
+                        "TextEntry": "true",
+                        "TextEntrySize": "Medium"
+                    },
+                    "4": {
+                        "Display": "<strong>Somewhat unhelpful</strong>",
+                        "TextEntry": "true",
+                        "TextEntrySize": "Medium"
+                    },
+                    "5": {
+                        "Display": "<strong>Extremely UNHELPFUL</strong>",
+                        "TextEntry": "true",
+                        "TextEntrySize": "Medium"
+                    }
+                },
+                "DisplayLogic": {
+                    "0": {
+                        "0": {
+                            "ChoiceLocator": "q://QID9/SelectableChoice/1",
+                            "Description": "<span class=\"ConjDesc\">If</span> <span class=\"QuestionDesc\">Has your department/ division/ office&nbsp;ever implemented professional development for staff on how...</span> <span class=\"LeftOpDesc\">Yes; please briefly explain the duration of this training and the context – what was the issue that you were trying to address?</span> <span class=\"OpDesc\">Is Selected</span> ",
+                            "LeftOperand": "q://QID9/SelectableChoice/1",
+                            "LogicType": "Question",
+                            "Operator": "Selected",
+                            "QuestionID": "QID9",
+                            "QuestionIDFromLocator": "QID9",
+                            "QuestionIsInLoop": "no",
+                            "Type": "Expression"
+                        },
+                        "Type": "If"
+                    },
+                    "Type": "BooleanExpression",
+                    "inPage": false
+                },
+                "ChoiceOrder": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "OFF",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 13,
+                "NextAnswerId": 6,
+                "QuestionID": "QID31",
+                "QuestionText_Unsafe": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><strong>On a scale of 1-5 (1 = extremely unhelpful; 5 = extremely helpful), to <u>what extent do you feel this training was helpf<span style=\"background-color:#ffffff;\">ul in &nbsp;increasing staff qualifications to support immigrant families with young children?</span></u></strong></span></span></span>\n<p><strong><span style=\"color:black\"><o:p></o:p></span></strong></p>"
+            },
+            "QID1": {
+                "QuestionText": "<p><strong><span style=\"color:black\">ONLINE SURVEY (ALTERNATE CONSENT and SURVEY ITEMS)<o:p></o:p></span></strong></p>\n\n<p><strong><span style=\"color:black\">(IRB Approval: #&nbsp;</span></strong><u><span style=\"font-size: 11pt; line-height: 107%; font-family: Helvetica, sans-serif;\"><b>Pro2019000645</b></span></u><strong><span style=\"color:black\">)<o:p></o:p></span></strong></p>\n\n<p><em><strong><em><span style=\"color:#00B0F0\"><o:p></o:p></span></em></strong></em></p>\n\n<p><em><strong><span style=\"font-size:9.0pt;line-height:108%;color:#54250E\">&nbsp;</span></strong></em></p>\n\n<p><em><strong><span style=\"font-size:9.0pt;line-height:108%;color:#54250E\">College of Education&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></strong></em></p><p><em><strong><span style=\"font-size:9.0pt;line-height:108%;color:#54250E\">&nbsp;</span></strong></em><em><strong><span style=\"font-size:9.0pt;line-height:108%;color:#54250E\">Zeynep Isik-Ercan, Ph.D. (</span></strong></em><span style=\"font-size: 9pt; line-height: 12.96px; color: blue;\">ercan@rowan.edu</span><em><strong><span style=\"font-size:9.0pt;line-height:108%;color:#54250E\">) and Nicole M. Edwards, Ph.D. (</span></strong></em><span style=\"color: blue; font-size: 9pt;\">edwardsn@rowan.edu</span><em><strong><span style=\"font-size:9.0pt;line-height:108%;color:#54250E\">)</span></strong></em></p>\n\n<p><em><span style=\"font-size:9.0pt;line-height:\n108%;color:#54250E\">Department of Interdisciplinary and Inclusive Education&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></em></p>\n\n<p><em><span style=\"font-size:9.0pt;line-height:108%;\ncolor:#54250E\">James Hall, 3rd Floor&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <o:p></o:p></span></em></p>\n\n<p><em><span style=\"font-size:9.0pt;line-height:108%;\ncolor:#54250E\">201 Mullica Hill Road&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <o:p></o:p></span></em></p>\n\n<p><em><span style=\"font-size:9.0pt;line-height:108%;\ncolor:#54250E\">Glassboro, NJ 08028<o:p></o:p></span></em></p>\n\n<p><em><o:p>&nbsp;</o:p></em></p>\n\n<p><em>You are invited to participate in this online research survey entitled, <em><span style=\"color:black\">Understanding the Ecology of Immigrant Families and their Integration into Camden City: Multiple Systems for Health and Well-Being of Young Children from Birth to Age 5.</span></em>&nbsp; <u>You are included in this survey because you are a <strong>State level administrator&nbsp;</strong>who oversees and supervises supports for children from first or second generation immigrant families in the birth-5 age range.&nbsp; A rough estimate of few hundred participants across 50 states will be asked to participate in completing this one-time survey</u>. The State level administrator survey may take approximately 10 minutes to complete.&nbsp; Your participation is voluntary. If you do not wish to participate in this survey, do not respond to this online survey.&nbsp; Completing this survey indicates that you are voluntarily giving consent to participate in the survey.&nbsp; We expect this survey to remain open until December 1, 2020.&nbsp;&nbsp; <o:p></o:p></em></p>\n\n<p>&nbsp;</p>\n\n<p><em>The purpose of this research study is to better understand the extent to which stakeholders and families perceive existing and desired systems and supports for immigrant families of young children. More specifically, our objectives include:<o:p></o:p></em></p>\n\n<p><em><span style=\"font-family:&quot;Noto Sans Symbols&quot;;\nmso-fareast-font-family:&quot;Noto Sans Symbols&quot;;mso-bidi-font-family:&quot;Noto Sans Symbols&quot;;\ncolor:black\">●<span style=\"font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><em><span style=\"color:black\">Understanding family and child health development and well-being in context<o:p></o:p></span></em></em></p>\n\n<p><em><span style=\"font-family:&quot;Noto Sans Symbols&quot;;\nmso-fareast-font-family:&quot;Noto Sans Symbols&quot;;mso-bidi-font-family:&quot;Noto Sans Symbols&quot;;\ncolor:black\">●<span style=\"font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><em><span style=\"color:black\">Pinpointing key partners and identifying interactions across systems of support (mapping their ecology)<o:p></o:p></span></em></em></p>\n\n<p><em><span style=\"font-family:&quot;Noto Sans Symbols&quot;;\nmso-fareast-font-family:&quot;Noto Sans Symbols&quot;;mso-bidi-font-family:&quot;Noto Sans Symbols&quot;;\ncolor:black\">●<span style=\"font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><em><span style=\"color:black\">Assessing family satisfaction with and use of available supports<o:p></o:p></span></em></em></p>\n\n<p><em><span style=\"font-family:&quot;Noto Sans Symbols&quot;;\nmso-fareast-font-family:&quot;Noto Sans Symbols&quot;;mso-bidi-font-family:&quot;Noto Sans Symbols&quot;;\ncolor:black\">●<span style=\"font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><em><span style=\"color:black\">Understanding views on stakeholder accountability and coordination needs<o:p></o:p></span></em></em></p>\n\n<p>&nbsp;</p>\n\n<p><em>There are no risks or discomforts associated with this survey.&nbsp; There may be no direct benefit to you, however, by participating in this study, you may help us understand the ways in which we can pinpoint and address roadblocks that may impede capacity building and outreach efforts.&nbsp; Your response will be kept confidential.&nbsp; We will store the de-identified data in a secure computer file.&nbsp; Any part of the research that is published as part of this study will not include your individual information or the name of your particular place of employment.&nbsp; If you have any questions, contact Dr. Nicole Edwards at <span style=\"color:blue\">EdwardsN@rowan.edu</span>, or Dr. Zeynep Ercan at <span style=\"color:blue\">ercan@rowan.edu</span>, but you do not have to give your personal identification.&nbsp; <o:p></o:p></em></p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>To participate in this survey, <span style=\"background-color:#2ecc71;\">you must be 18 years or older, be a State Department / Division / Office ADMINISTRATOR overseeing services and supports for immigrant families and their young children (birth-5), and be willing to provide your voluntary consent (no signature/name needed to participate).</span><o:p></o:p></strong></em></p>",
+                "DataExportTag": "Q1",
+                "QuestionType": "MC",
+                "Selector": "SAVR",
+                "SubSelector": "TX",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "ONLINE SURVEY (ALTERNATE CONSENT and SURVEY ITEMS) (IRB Approval: # Pro2019000645)   College of E...",
+                "Choices": {
+                    "3": {
+                        "Display": "Yes, this above statement is TRUE; and I would like to begin the survey."
+                    }
+                },
+                "ChoiceOrder": [
+                    "3"
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "OFF",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "Language": [],
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "QuestionID": "QID1",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "QuestionText_Unsafe": "<p><strong><span style=\"color:black\">ONLINE SURVEY (ALTERNATE CONSENT and SURVEY ITEMS)<o:p></o:p></span></strong></p>\n\n<p><strong><span style=\"color:black\">(IRB Approval: #&nbsp;</span></strong><u><span style=\"font-size: 11pt; line-height: 107%; font-family: Helvetica, sans-serif;\"><b>Pro2019000645</b></span></u><strong><span style=\"color:black\">)<o:p></o:p></span></strong></p>\n\n<p><em><strong><em><span style=\"color:#00B0F0\"><o:p></o:p></span></em></strong></em></p>\n\n<p><em><strong><span style=\"font-size:9.0pt;line-height:108%;color:#54250E\">&nbsp;</span></strong></em></p>\n\n<p><em><strong><span style=\"font-size:9.0pt;line-height:108%;color:#54250E\">College of Education&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></strong></em></p><p><em><strong><span style=\"font-size:9.0pt;line-height:108%;color:#54250E\">&nbsp;</span></strong></em><em><strong><span style=\"font-size:9.0pt;line-height:108%;color:#54250E\">Zeynep Isik-Ercan, Ph.D. (</span></strong></em><span style=\"font-size: 9pt; line-height: 12.96px; color: blue;\">ercan@rowan.edu</span><em><strong><span style=\"font-size:9.0pt;line-height:108%;color:#54250E\">) and Nicole M. Edwards, Ph.D. (</span></strong></em><span style=\"color: blue; font-size: 9pt;\">edwardsn@rowan.edu</span><em><strong><span style=\"font-size:9.0pt;line-height:108%;color:#54250E\">)</span></strong></em></p>\n\n<p><em><span style=\"font-size:9.0pt;line-height:\n108%;color:#54250E\">Department of Interdisciplinary and Inclusive Education&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></em></p>\n\n<p><em><span style=\"font-size:9.0pt;line-height:108%;\ncolor:#54250E\">James Hall, 3rd Floor&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <o:p></o:p></span></em></p>\n\n<p><em><span style=\"font-size:9.0pt;line-height:108%;\ncolor:#54250E\">201 Mullica Hill Road&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <o:p></o:p></span></em></p>\n\n<p><em><span style=\"font-size:9.0pt;line-height:108%;\ncolor:#54250E\">Glassboro, NJ 08028<o:p></o:p></span></em></p>\n\n<p><em><o:p>&nbsp;</o:p></em></p>\n\n<p><em>You are invited to participate in this online research survey entitled, <em><span style=\"color:black\">Understanding the Ecology of Immigrant Families and their Integration into Camden City: Multiple Systems for Health and Well-Being of Young Children from Birth to Age 5.</span></em>&nbsp; <u>You are included in this survey because you are a <strong>State level administrator&nbsp;</strong>who oversees and supervises supports for children from first or second generation immigrant families in the birth-5 age range.&nbsp; A rough estimate of few hundred participants across 50 states will be asked to participate in completing this one-time survey</u>. The State level administrator survey may take approximately 10 minutes to complete.&nbsp; Your participation is voluntary. If you do not wish to participate in this survey, do not respond to this online survey.&nbsp; Completing this survey indicates that you are voluntarily giving consent to participate in the survey.&nbsp; We expect this survey to remain open until December 1, 2020.&nbsp;&nbsp; <o:p></o:p></em></p>\n\n<p>&nbsp;</p>\n\n<p><em>The purpose of this research study is to better understand the extent to which stakeholders and families perceive existing and desired systems and supports for immigrant families of young children. More specifically, our objectives include:<o:p></o:p></em></p>\n\n<p><em><span style=\"font-family:&quot;Noto Sans Symbols&quot;;\nmso-fareast-font-family:&quot;Noto Sans Symbols&quot;;mso-bidi-font-family:&quot;Noto Sans Symbols&quot;;\ncolor:black\">●<span style=\"font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><em><span style=\"color:black\">Understanding family and child health development and well-being in context<o:p></o:p></span></em></em></p>\n\n<p><em><span style=\"font-family:&quot;Noto Sans Symbols&quot;;\nmso-fareast-font-family:&quot;Noto Sans Symbols&quot;;mso-bidi-font-family:&quot;Noto Sans Symbols&quot;;\ncolor:black\">●<span style=\"font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><em><span style=\"color:black\">Pinpointing key partners and identifying interactions across systems of support (mapping their ecology)<o:p></o:p></span></em></em></p>\n\n<p><em><span style=\"font-family:&quot;Noto Sans Symbols&quot;;\nmso-fareast-font-family:&quot;Noto Sans Symbols&quot;;mso-bidi-font-family:&quot;Noto Sans Symbols&quot;;\ncolor:black\">●<span style=\"font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><em><span style=\"color:black\">Assessing family satisfaction with and use of available supports<o:p></o:p></span></em></em></p>\n\n<p><em><span style=\"font-family:&quot;Noto Sans Symbols&quot;;\nmso-fareast-font-family:&quot;Noto Sans Symbols&quot;;mso-bidi-font-family:&quot;Noto Sans Symbols&quot;;\ncolor:black\">●<span style=\"font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><em><span style=\"color:black\">Understanding views on stakeholder accountability and coordination needs<o:p></o:p></span></em></em></p>\n\n<p>&nbsp;</p>\n\n<p><em>There are no risks or discomforts associated with this survey.&nbsp; There may be no direct benefit to you, however, by participating in this study, you may help us understand the ways in which we can pinpoint and address roadblocks that may impede capacity building and outreach efforts.&nbsp; Your response will be kept confidential.&nbsp; We will store the de-identified data in a secure computer file.&nbsp; Any part of the research that is published as part of this study will not include your individual information or the name of your particular place of employment.&nbsp; If you have any questions, contact Dr. Nicole Edwards at <span style=\"color:blue\">EdwardsN@rowan.edu</span>, or Dr. Zeynep Ercan at <span style=\"color:blue\">ercan@rowan.edu</span>, but you do not have to give your personal identification.&nbsp; <o:p></o:p></em></p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>To participate in this survey, <span style=\"background-color:#2ecc71;\">you must be 18 years or older, be a State Department / Division / Office ADMINISTRATOR overseeing services and supports for immigrant families and their young children (birth-5), and be willing to provide your voluntary consent (no signature/name needed to participate).</span><o:p></o:p></strong></em></p>",
+                "DefaultChoices": false,
+                "GradingData": []
+            },
+            "QID30": {
+                "QuestionText": "<font color=\"#000000\"><span style=\"font-size: 16px;\"><b>Please briefly explain your two top main reasons for this absence of initiatives.</b></span></font><o:p></o:p>",
+                "DataExportTag": "Q12",
+                "QuestionType": "MC",
+                "Selector": "MAVR",
+                "SubSelector": "TX",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "Please briefly explain your two top main reasons for this absence of initiatives.",
+                "Choices": {
+                    "1": {
+                        "Display": "Reason 1",
+                        "TextEntry": "true",
+                        "InputHeight": 24,
+                        "InputWidth": 608
+                    },
+                    "2": {
+                        "Display": "Reason 2",
+                        "TextEntry": "true"
+                    }
+                },
+                "ChoiceOrder": [
+                    1,
+                    2
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "RequestResponse",
+                        "ForceResponseType": "RequestResponse",
+                        "Type": "None"
+                    }
+                },
+                "Language": [],
+                "NextChoiceId": 3,
+                "NextAnswerId": 1,
+                "QuestionID": "QID30",
+                "DisplayLogic": {
+                    "0": {
+                        "0": {
+                            "ChoiceLocator": "q://QID29/SelectableChoice/3",
+                            "Description": "<span class=\"ConjDesc\">If</span> <span class=\"QuestionDesc\">Has your department/ division/ office implemented&nbsp;an INITIATIVE (e.g., policy/program) to best su...</span> <span class=\"LeftOpDesc\">No</span> <span class=\"OpDesc\">Is Selected</span> ",
+                            "LeftOperand": "q://QID29/SelectableChoice/3",
+                            "LogicType": "Question",
+                            "Operator": "Selected",
+                            "QuestionID": "QID29",
+                            "QuestionIDFromLocator": "QID29",
+                            "QuestionIsInLoop": "no",
+                            "Type": "Expression"
+                        },
+                        "Type": "If"
+                    },
+                    "Type": "BooleanExpression",
+                    "inPage": false
+                },
+                "QuestionText_Unsafe": "<font color=\"#000000\"><span style=\"font-size: 16px;\"><b>Please briefly explain your two top main reasons for this absence of initiatives.</b></span></font><o:p></o:p>"
+            },
+            "QID2": {
+                "QuestionText": "<p><span style=\"font-size:18.0pt\">State administrator Surve</span><span style=\"font-size:16.0pt\">y:&nbsp;</span><span style=\"font-size: 16pt;\">Supporting Immigrant Families of Young Children (birth-5) in State systems</span></p>\n\n<p><em>Please take a moment to answer the following questions.&nbsp; NO NAMES of people or specific sites will be linked to information you provide.&nbsp; Results will only be shared in aggregate form:</em><strong><span style=\"color:#984806\"><o:p></o:p></span></strong></p>\n\n<p>&nbsp;</p>\n<strong>Please share your initial thoughts on the following. How are the needs of immigrant families with young children (birth - 5) currently addressed in your Department / Division / Office?<o:p></o:p></strong>",
+                "DefaultChoices": false,
+                "DataExportTag": "Q2",
+                "QuestionType": "TE",
+                "Selector": "ML",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "InputWidth": 680,
+                    "InputHeight": 123
+                },
+                "QuestionDescription": "State administrator Survey: Supporting Immigrant Families of Young Children (birth-5) in State sy...",
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "RequestResponse",
+                        "ForceResponseType": "RequestResponse",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "SearchSource": {
+                    "AllowFreeResponse": "false"
+                },
+                "QuestionID": "QID2",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "QuestionText_Unsafe": "<p><span style=\"font-size:18.0pt\">State administrator Surve</span><span style=\"font-size:16.0pt\">y:&nbsp;</span><span style=\"font-size: 16pt;\">Supporting Immigrant Families of Young Children (birth-5) in State systems</span></p>\n\n<p><em>Please take a moment to answer the following questions.&nbsp; NO NAMES of people or specific sites will be linked to information you provide.&nbsp; Results will only be shared in aggregate form:</em><strong><span style=\"color:#984806\"><o:p></o:p></span></strong></p>\n\n<p>&nbsp;</p>\n<strong>Please share your initial thoughts on the following. How are the needs of immigrant families with young children (birth - 5) currently addressed in your Department / Division / Office?<o:p></o:p></strong>"
+            },
+            "QID32": {
+                "QuestionText": "<span style=\"white-space: pre-wrap;\">State the department/division at which you are an administrator:</span>&nbsp;",
+                "DefaultChoices": false,
+                "DataExportTag": "Q18",
+                "QuestionType": "TE",
+                "Selector": "SL",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "InputWidth": 424,
+                    "InputHeight": 29
+                },
+                "QuestionDescription": "State the department/division at which you are an administrator: ",
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "OFF",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "SearchSource": {
+                    "AllowFreeResponse": "false"
+                },
+                "QuestionID": "QID32",
+                "QuestionText_Unsafe": "<span style=\"white-space: pre-wrap;\">State the department/division at which you are an administrator:</span>&nbsp;"
+            },
+            "QID27": {
+                "QuestionText": "<span style=\"font-weight: 700; color: rgb(0, 0, 0); font-size: 16px;\">THANK YOU for your time and valuable insights!&nbsp; Additional thoughts on this topic may be shared below.&nbsp; <i>&nbsp;</i></span>\n<div>&nbsp;</div>\n\n<div><span style=\"color:#8e44ad;\"><em><span style=\"font-size: 16px; font-weight: 700;\">When you are done, please click SUBMIT.&nbsp; &nbsp;&nbsp;</span></em></span></div>",
+                "DefaultChoices": false,
+                "DataExportTag": "Q28",
+                "QuestionID": "QID27",
+                "QuestionType": "TE",
+                "Selector": "SL",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "InputWidth": 667,
+                    "InputHeight": 29
+                },
+                "QuestionDescription": "THANK YOU for your time and valuable insights!  Additional thoughts on this topic may be shared b...",
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "OFF",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "SearchSource": {
+                    "AllowFreeResponse": "false"
+                },
+                "QuestionText_Unsafe": "<span style=\"font-weight: 700; color: rgb(0, 0, 0); font-size: 16px;\">THANK YOU for your time and valuable insights!&nbsp; Additional thoughts on this topic may be shared below.&nbsp; <i>&nbsp;</i></span>\n<div>&nbsp;</div>\n\n<div><span style=\"color:#8e44ad;\"><em><span style=\"font-size: 16px; font-weight: 700;\">When you are done, please click SUBMIT.&nbsp; &nbsp;&nbsp;</span></em></span></div>"
+            },
+            "QID24": {
+                "QuestionText": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><strong>Thank you!&nbsp;<u> If you have any other thoughts on how best to support immigrant families</u> at the level of the program or community, please </strong></span></span></span><w:sdt id=\"1645929797\" sdttag=\"goog_rdk_6\"></w:sdt><w:sdt id=\"7179284\" sdttag=\"goog_rdk_7\"></w:sdt><span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><strong>include those here.&nbsp;</strong></span></span></span>",
+                "DefaultChoices": false,
+                "DataExportTag": "Q26",
+                "QuestionType": "TE",
+                "Selector": "ML",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "InputWidth": 680,
+                    "InputHeight": 200
+                },
+                "QuestionDescription": "Thank you!  If you have any other thoughts on how best to support immigrant families at the level...",
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "RequestResponse",
+                        "ForceResponseType": "RequestResponse",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "SearchSource": {
+                    "AllowFreeResponse": "false"
+                },
+                "QuestionID": "QID24",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "QuestionText_Unsafe": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><strong>Thank you!&nbsp;<u> If you have any other thoughts on how best to support immigrant families</u> at the level of the program or community, please </strong></span></span></span><w:sdt id=\"1645929797\" sdttag=\"goog_rdk_6\"></w:sdt><w:sdt id=\"7179284\" sdttag=\"goog_rdk_7\"></w:sdt><span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><strong>include those here.&nbsp;</strong></span></span></span>"
+            },
+            "QID16": {
+                "QuestionText": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><strong>To better understand </strong><strong>the particular context you are in by still keeping anonymity, please answer the following:</strong></span></span></span><strong><o:p></o:p></strong>\n<div>&nbsp;</div>\n\n<div><span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><u><u>The State in which you are an administrator <em>(please select from the following dropdown list):</em></u></u></span></span></span>\n\n<div>\n<div>\n<div>&nbsp;</div>\n</div>\n</div>\n</div>",
+                "DefaultChoices": false,
+                "DataExportTag": "Q17",
+                "QuestionID": "QID16",
+                "QuestionType": "MC",
+                "Selector": "DL",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "To better understand the particular context you are in by still keeping anonymity, please answer...",
+                "Choices": {
+                    "21": {
+                        "Display": " Alabama"
+                    },
+                    "22": {
+                        "Display": " Alaska"
+                    },
+                    "25": {
+                        "Display": " California"
+                    },
+                    "31": {
+                        "Display": " Arizona"
+                    },
+                    "32": {
+                        "Display": " Arkansas"
+                    },
+                    "33": {
+                        "Display": " Colorado"
+                    },
+                    "34": {
+                        "Display": " Connecticut"
+                    },
+                    "35": {
+                        "Display": " Delaware"
+                    },
+                    "36": {
+                        "Display": " District of Columbia"
+                    },
+                    "37": {
+                        "Display": " Florida"
+                    },
+                    "38": {
+                        "Display": " Georgia"
+                    },
+                    "39": {
+                        "Display": " Hawaii"
+                    },
+                    "40": {
+                        "Display": " Idaho"
+                    },
+                    "41": {
+                        "Display": " Illinois"
+                    },
+                    "42": {
+                        "Display": " Indiana"
+                    },
+                    "43": {
+                        "Display": " Iowa"
+                    },
+                    "44": {
+                        "Display": " Kansas"
+                    },
+                    "45": {
+                        "Display": " Kentucky"
+                    },
+                    "46": {
+                        "Display": " Louisiana"
+                    },
+                    "47": {
+                        "Display": " Maine"
+                    },
+                    "48": {
+                        "Display": " Maryland"
+                    },
+                    "49": {
+                        "Display": " Massachusetts"
+                    },
+                    "50": {
+                        "Display": " Michigan"
+                    },
+                    "51": {
+                        "Display": " Minnesota"
+                    },
+                    "52": {
+                        "Display": " Mississippi"
+                    },
+                    "53": {
+                        "Display": " Missouri"
+                    },
+                    "54": {
+                        "Display": " Montana"
+                    },
+                    "55": {
+                        "Display": " Nebraska"
+                    },
+                    "56": {
+                        "Display": " Nevada"
+                    },
+                    "57": {
+                        "Display": " New Hampshire"
+                    },
+                    "58": {
+                        "Display": " New Jersey"
+                    },
+                    "59": {
+                        "Display": " New Mexico"
+                    },
+                    "60": {
+                        "Display": " New York"
+                    },
+                    "61": {
+                        "Display": " North Carolina"
+                    },
+                    "62": {
+                        "Display": " North Dakota"
+                    },
+                    "63": {
+                        "Display": " Ohio"
+                    },
+                    "64": {
+                        "Display": " Oklahoma"
+                    },
+                    "65": {
+                        "Display": " Oregon"
+                    },
+                    "66": {
+                        "Display": " Pennsylvania"
+                    },
+                    "67": {
+                        "Display": " Puerto Rico"
+                    },
+                    "68": {
+                        "Display": " Rhode Island"
+                    },
+                    "69": {
+                        "Display": " South Carolina"
+                    },
+                    "70": {
+                        "Display": " South Dakota"
+                    },
+                    "71": {
+                        "Display": " Tennessee"
+                    },
+                    "72": {
+                        "Display": " Texas"
+                    },
+                    "73": {
+                        "Display": " Utah"
+                    },
+                    "74": {
+                        "Display": " Vermont"
+                    },
+                    "75": {
+                        "Display": " Virginia"
+                    },
+                    "76": {
+                        "Display": " Washington"
+                    },
+                    "77": {
+                        "Display": " West Virginia"
+                    },
+                    "78": {
+                        "Display": " Wisconsin"
+                    },
+                    "79": {
+                        "Display": " Wyoming"
+                    }
+                },
+                "ChoiceOrder": [
+                    "21",
+                    "22",
+                    "31",
+                    "32",
+                    "25",
+                    "33",
+                    "34",
+                    "35",
+                    "36",
+                    "37",
+                    "38",
+                    "39",
+                    "40",
+                    "41",
+                    "42",
+                    "43",
+                    "44",
+                    "45",
+                    "46",
+                    "47",
+                    "48",
+                    "49",
+                    "50",
+                    "51",
+                    "52",
+                    "53",
+                    "54",
+                    "55",
+                    "56",
+                    "57",
+                    "58",
+                    "59",
+                    "60",
+                    "61",
+                    "62",
+                    "63",
+                    "64",
+                    "65",
+                    "66",
+                    "67",
+                    "68",
+                    "69",
+                    "70",
+                    "71",
+                    "72",
+                    "73",
+                    "74",
+                    "75",
+                    "76",
+                    "77",
+                    "78",
+                    "79"
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "OFF",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 80,
+                "NextAnswerId": 1,
+                "QuestionText_Unsafe": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><strong>To better understand </strong><strong>the particular context you are in by still keeping anonymity, please answer the following:</strong></span></span></span><strong><o:p></o:p></strong>\n<div>&nbsp;</div>\n\n<div><span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><u><u>The State in which you are an administrator <em>(please select from the following dropdown list):</em></u></u></span></span></span>\n\n<div>\n<div>\n<div>&nbsp;</div>\n</div>\n</div>\n</div>"
+            },
+            "QID4": {
+                "QuestionText": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><span style=\"line-height: 115%;\">To what extent would your <strong>above answer be the SAME or DIFFERENT</strong> if talkin<span style=\"background-color:#ffffff;\">g about </span><strong><em><span style=\"background-color:#ffffff;\">first</span></em><span style=\"background-color:#ffffff;\"> </span></strong><span style=\"background-color:#ffffff;\">generation im</span></span></span></span></span><span style=\"font-size:11.0pt;line-height:115%;font-family:&quot;Calibri&quot;,sans-serif;\nmso-fareast-font-family:Calibri;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\"><w:sdt id=\"-497507023\" sdttag=\"goog_rdk_0\"></w:sdt><w:sdtpr></w:sdtpr><w:sdt id=\"-1719428952\" sdttag=\"goog_rdk_1\"></w:sdt></span><span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><span style=\"background-color:#ffffff;\">migrant families (those who arrived in the U.S. as adults and/or children) versus </span><strong><em><span style=\"background-color:#ffffff;\">second</span></em></strong><span style=\"background-color:#ffffff;\"> generation immigrant families (those born and raised in the U.S.)? Pleas</span>e briefly explain.</span></span></span>\n<div>\n<div>\n<div>&nbsp;</div>\n</div>\n</div>",
+                "DefaultChoices": false,
+                "DataExportTag": "Q4",
+                "QuestionType": "TE",
+                "Selector": "ML",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "InputWidth": 654,
+                    "InputHeight": 126
+                },
+                "QuestionDescription": "To what extent would your above answer be the SAME or DIFFERENT if talking about first generation...",
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "RequestResponse",
+                        "ForceResponseType": "RequestResponse",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "SearchSource": {
+                    "AllowFreeResponse": "false"
+                },
+                "QuestionID": "QID4",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "QuestionText_Unsafe": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><span style=\"line-height: 115%;\">To what extent would your <strong>above answer be the SAME or DIFFERENT</strong> if talkin<span style=\"background-color:#ffffff;\">g about </span><strong><em><span style=\"background-color:#ffffff;\">first</span></em><span style=\"background-color:#ffffff;\"> </span></strong><span style=\"background-color:#ffffff;\">generation im</span></span></span></span></span><span style=\"font-size:11.0pt;line-height:115%;font-family:&quot;Calibri&quot;,sans-serif;\nmso-fareast-font-family:Calibri;mso-ansi-language:EN-US;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\"><w:sdt id=\"-497507023\" sdttag=\"goog_rdk_0\"></w:sdt><w:sdtpr></w:sdtpr><w:sdt id=\"-1719428952\" sdttag=\"goog_rdk_1\"></w:sdt></span><span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><span style=\"background-color:#ffffff;\">migrant families (those who arrived in the U.S. as adults and/or children) versus </span><strong><em><span style=\"background-color:#ffffff;\">second</span></em></strong><span style=\"background-color:#ffffff;\"> generation immigrant families (those born and raised in the U.S.)? Pleas</span>e briefly explain.</span></span></span>\n<div>\n<div>\n<div>&nbsp;</div>\n</div>\n</div>"
+            },
+            "QID6": {
+                "QuestionText": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><span style=\"line-height: 115%;\">To what extent would your <strong>above answer <span style=\"background-color:#ffffff;\">be the SAME or DIFFERENT </span></strong><span style=\"background-color:#ffffff;\">if talking about </span><strong><em><span style=\"background-color:#ffffff;\">first</span></em><span style=\"background-color:#ffffff;\"> generation immigrant parents versus </span><em><span style=\"background-color:#ffffff;\">second</span></em><span style=\"background-color:#ffffff;\"> generation immigrant parents</span></strong><span style=\"background-color:#ffffff;\">? Please briefly explain.&nbsp;&nbsp;</span></span></span></span></span>",
+                "DefaultChoices": false,
+                "DataExportTag": "Q6",
+                "QuestionType": "TE",
+                "Selector": "ML",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "InputWidth": 680,
+                    "InputHeight": 140
+                },
+                "QuestionDescription": "To what extent would your above answer be the SAME or DIFFERENT if talking about first generation...",
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "RequestResponse",
+                        "ForceResponseType": "RequestResponse",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "SearchSource": {
+                    "AllowFreeResponse": "false"
+                },
+                "QuestionID": "QID6",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "QuestionText_Unsafe": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><span style=\"line-height: 115%;\">To what extent would your <strong>above answer <span style=\"background-color:#ffffff;\">be the SAME or DIFFERENT </span></strong><span style=\"background-color:#ffffff;\">if talking about </span><strong><em><span style=\"background-color:#ffffff;\">first</span></em><span style=\"background-color:#ffffff;\"> generation immigrant parents versus </span><em><span style=\"background-color:#ffffff;\">second</span></em><span style=\"background-color:#ffffff;\"> generation immigrant parents</span></strong><span style=\"background-color:#ffffff;\">? Please briefly explain.&nbsp;&nbsp;</span></span></span></span></span>"
+            },
+            "QID5": {
+                "QuestionText": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><strong>Which of the fo<span style=\"background-color:#ffffff;\">llowing </span><u><span style=\"background-color:#ffffff;\">most accurately</span></u><span style=\"background-color:#ffffff;\"> reflects your </span><u><span style=\"background-color:#ffffff;\">general views</span></u><span style=\"background-color:#ffffff;\"> on immigrant families when it comes to advocating for </span><em><span style=\"background-color:#ffffff;\">their *child*&nbsp;</span></em><span style=\"background-color:#ffffff;\">(Pl</span>ease select ONE):</strong></span></span></span><strong><o:p></o:p></strong>",
+                "DataExportTag": "Q5",
+                "QuestionType": "MC",
+                "Selector": "SAVR",
+                "SubSelector": "TX",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "Which of the following most accurately reflects your general views on immigrant families when it...",
+                "Choices": {
+                    "1": {
+                        "Display": "<strong>Immigrant parents tend to be MORE likely to seek needed services</strong> for their child compared with non-immigrant families",
+                        "TextEntry": "true",
+                        "InputHeight": 24,
+                        "InputWidth": 547
+                    },
+                    "2": {
+                        "Display": "<strong>Immigrant families tend to be LESS likely to seek needed services</strong> for their child compared with non-immigrant families.",
+                        "TextEntry": "true",
+                        "InputHeight": 24,
+                        "InputWidth": 548
+                    },
+                    "3": {
+                        "Display": "Immigrant families and non-immigrant families tend to be <strong>EQUALLY likely</strong> to seek needed services for their child.",
+                        "TextEntry": "true",
+                        "InputHeight": 24,
+                        "InputWidth": 549
+                    },
+                    "4": {
+                        "Display": "Advocacy and willingness to seek needed services for their child <strong>DEPEND on the individual family, with immigrant status typically having little to no impact.</strong>",
+                        "TextEntry": "true",
+                        "InputHeight": 24,
+                        "InputWidth": 566
+                    }
+                },
+                "ChoiceOrder": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "RequestResponse",
+                        "ForceResponseType": "RequestResponse",
+                        "Type": "None"
+                    }
+                },
+                "Language": [],
+                "NextChoiceId": 5,
+                "NextAnswerId": 1,
+                "QuestionID": "QID5",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "QuestionText_Unsafe": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><strong>Which of the fo<span style=\"background-color:#ffffff;\">llowing </span><u><span style=\"background-color:#ffffff;\">most accurately</span></u><span style=\"background-color:#ffffff;\"> reflects your </span><u><span style=\"background-color:#ffffff;\">general views</span></u><span style=\"background-color:#ffffff;\"> on immigrant families when it comes to advocating for </span><em><span style=\"background-color:#ffffff;\">their *child*&nbsp;</span></em><span style=\"background-color:#ffffff;\">(Pl</span>ease select ONE):</strong></span></span></span><strong><o:p></o:p></strong>"
+            },
+            "QID3": {
+                "QuestionText": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><strong><span style=\"color:#000000;\">Which of the following <u>most accurately</u> reflects your <u>GENERAL&nbsp;</u>views on immigrant families when it comes to advocating for <i><span style=\"background-color:#ffffff;\">*themselves*&nbsp;</span></i>(Please select ONE):</span></strong></span></span><strong><o:p></o:p></strong>",
+                "DataExportTag": "Q3",
+                "QuestionType": "MC",
+                "Selector": "SAVR",
+                "SubSelector": "TX",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "Which of the following most accurately reflects your GENERAL views on immigrant families when it...",
+                "Choices": {
+                    "1": {
+                        "Display": "<strong>Immigrant families tend to be MORE likely to seek needed services</strong> compared with non-immigrant families.",
+                        "TextEntry": "true",
+                        "InputHeight": 24,
+                        "InputWidth": 501
+                    },
+                    "2": {
+                        "Display": "<strong>Immigrant families tend to be LESS likely to seek needed services</strong> compared with non-immigrant families.",
+                        "TextEntry": "true",
+                        "InputHeight": 24,
+                        "InputWidth": 503
+                    },
+                    "3": {
+                        "Display": "Immigrant families and non-immigrant families tend to be <strong>EQUALLY likely</strong> to seek needed services.",
+                        "TextEntry": "true",
+                        "InputHeight": 24,
+                        "InputWidth": 516
+                    },
+                    "4": {
+                        "Display": "Advocacy and willingness to seek needed services <strong>DEPEND on the individual family, with immigrant status typically having little to no impact.</strong>",
+                        "TextEntry": "true",
+                        "InputHeight": 24,
+                        "InputWidth": 522
+                    }
+                },
+                "ChoiceOrder": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "RequestResponse",
+                        "ForceResponseType": "RequestResponse",
+                        "Type": "None"
+                    }
+                },
+                "Language": [],
+                "NextChoiceId": 5,
+                "NextAnswerId": 1,
+                "QuestionID": "QID3",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "QuestionText_Unsafe": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><strong><span style=\"color:#000000;\">Which of the following <u>most accurately</u> reflects your <u>GENERAL&nbsp;</u>views on immigrant families when it comes to advocating for <i><span style=\"background-color:#ffffff;\">*themselves*&nbsp;</span></i>(Please select ONE):</span></strong></span></span><strong><o:p></o:p></strong>"
+            },
+            "QID20": {
+                "QuestionText": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><span style=\"line-height: 115%;\">Your <strong><u>highest degree</u></strong>&nbsp;and <strong><u>field of study</u></strong></span></span></span></span>",
+                "DefaultChoices": false,
+                "DataExportTag": "Q22",
+                "QuestionID": "QID20",
+                "QuestionType": "TE",
+                "Selector": "SL",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "Your highest degree and field of study",
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "RequestResponse",
+                        "ForceResponseType": "RequestResponse",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "SearchSource": {
+                    "AllowFreeResponse": "false"
+                },
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "QuestionText_Unsafe": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"color:#000000;\"><span style=\"line-height: 115%;\">Your <strong><u>highest degree</u></strong>&nbsp;and <strong><u>field of study</u></strong></span></span></span></span>"
+            },
+            "QID18": {
+                "QuestionText": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"line-height: 115%; color: black;\">Your <u><strong>POSITION</strong> and <strong>title</strong>&nbsp;</u>at this site</span></span></span>",
+                "DefaultChoices": false,
+                "DataExportTag": "Q20",
+                "QuestionID": "QID18",
+                "QuestionType": "TE",
+                "Selector": "SL",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "Your POSITION and title at this site",
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "RequestResponse",
+                        "ForceResponseType": "RequestResponse",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "SearchSource": {
+                    "AllowFreeResponse": "false"
+                },
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "QuestionText_Unsafe": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"line-height: 115%; color: black;\">Your <u><strong>POSITION</strong> and <strong>title</strong>&nbsp;</u>at this site</span></span></span>"
+            },
+            "QID19": {
+                "QuestionText": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"line-height: 115%; color: black;\">Your <strong><u>race/ ethnicity</u></strong></span></span></span>",
+                "DefaultChoices": false,
+                "DataExportTag": "Q21",
+                "QuestionID": "QID19",
+                "QuestionType": "MC",
+                "Selector": "DL",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "Your race/ ethnicity",
+                "Choices": {
+                    "13": {
+                        "Display": "White"
+                    },
+                    "14": {
+                        "Display": "African American and/or Black"
+                    },
+                    "15": {
+                        "Display": "American Indian or Alaska Native"
+                    },
+                    "16": {
+                        "Display": "Hispanic or Latino"
+                    },
+                    "17": {
+                        "Display": "Asian"
+                    },
+                    "18": {
+                        "Display": "Native Hawaiian or Other Pacific Islander"
+                    },
+                    "19": {
+                        "Display": "Bi/Multi-Racial"
+                    },
+                    "20": {
+                        "Display": "Prefer not to respond"
+                    },
+                    "21": {
+                        "Display": "Other"
+                    }
+                },
+                "ChoiceOrder": [
+                    "13",
+                    "14",
+                    "15",
+                    "16",
+                    "17",
+                    "18",
+                    "19",
+                    "20",
+                    "21"
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "OFF",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 22,
+                "NextAnswerId": 1,
+                "QuestionText_Unsafe": "<span style=\"font-size:16px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\"><span style=\"line-height: 115%; color: black;\">Your <strong><u>race/ ethnicity</u></strong></span></span></span>"
+            }
+        },
+        "Blocks": {
+            "BL_bx6mlwouX4J0giF": {
+                "Type": "Default",
+                "Description": "Default Question Block",
+                "ID": "BL_bx6mlwouX4J0giF",
+                "BlockElements": [
+                    {
+                        "Type": "Question",
+                        "QuestionID": "QID1"
+                    },
+                    {
+                        "Type": "Question",
+                        "QuestionID": "QID2"
+                    },
+                    {
+                        "Type": "Question",
+                        "QuestionID": "QID3"
+                    },
+                    {
+                        "Type": "Question",
+                        "QuestionID": "QID4"
+                    },
+                    {
+                        "Type": "Question",
+                        "QuestionID": "QID5"
+                    },
+                    {
+                        "Type": "Question",
+                        "QuestionID": "QID6"
+                    },
+                    {
+                        "Type": "Question",
+                        "QuestionID": "QID7"
+                    },
+                    {
+                        "Type": "Question",
+                        "QuestionID": "QID8"
+                    },
+                    {
+                        "Type": "Question",
+                        "QuestionID": "QID9"
+                    },
+                    {
+                        "Type": "Question",
+                        "QuestionID": "QID31"
+                    },
+                    {
+                        "Type": "Question",
+                        "QuestionID": "QID29"
+                    },
+                    {
+                        "Type": "Question",
+                        "QuestionID": "QID30"
+                    },
+                    {
+                        "Type": "Question",
+                        "QuestionID": "QID12"
+                    },
+                    {
+                        "Type": "Question",
+                        "QuestionID": "QID13"
+                    },
+                    {
+                        "Type": "Question",
+                        "QuestionID": "QID14"
+                    },
+                    {
+                        "Type": "Question",
+                        "QuestionID": "QID15"
+                    },
+                    {
+                        "Type": "Question",
+                        "QuestionID": "QID16"
+                    },
+                    {
+                        "Type": "Question",
+                        "QuestionID": "QID32"
+                    },
+                    {
+                        "Type": "Question",
+                        "QuestionID": "QID17"
+                    },
+                    {
+                        "Type": "Question",
+                        "QuestionID": "QID18"
+                    },
+                    {
+                        "Type": "Question",
+                        "QuestionID": "QID19"
+                    },
+                    {
+                        "Type": "Question",
+                        "QuestionID": "QID20"
+                    },
+                    {
+                        "Type": "Question",
+                        "QuestionID": "QID21"
+                    },
+                    {
+                        "Type": "Question",
+                        "QuestionID": "QID22"
+                    },
+                    {
+                        "Type": "Question",
+                        "QuestionID": "QID23"
+                    },
+                    {
+                        "Type": "Question",
+                        "QuestionID": "QID24"
+                    },
+                    {
+                        "Type": "Question",
+                        "QuestionID": "QID26"
+                    },
+                    {
+                        "Type": "Question",
+                        "QuestionID": "QID27"
+                    }
+                ],
+                "Options": {
+                    "BlockLocking": "false",
+                    "RandomizeQuestions": "false",
+                    "BlockVisibility": "Expanded"
+                }
+            },
+            "BL_8o8UVYibQaGqYEB": {
+                "Type": "Trash",
+                "Description": "Trash / Unused Questions",
+                "ID": "BL_8o8UVYibQaGqYEB",
+                "BlockElements": []
+            }
+        },
+        "ResponseSets": {
+            "RS_dcXBwdYABIqSOXj": "Default Response Set"
+        },
+        "SurveyFlow": {
+            "Type": "Root",
+            "FlowID": "FL_1",
+            "Flow": [
+                {
+                    "Type": "Block",
+                    "ID": "BL_bx6mlwouX4J0giF",
+                    "FlowID": "FL_2",
+                    "Autofill": []
+                }
+            ],
+            "Properties": {
+                "Count": 3,
+                "RemovedFieldsets": []
+            }
+        },
+        "Scoring": {
+            "ScoringCategories": [],
+            "ScoringCategoryGroups": [],
+            "ScoringSummaryCategory": null,
+            "ScoringSummaryAfterQuestions": 0,
+            "ScoringSummaryAfterSurvey": 0,
+            "DefaultScoringCategory": null,
+            "AutoScoringCategory": null
+        },
+        "ProjectInfo": {
+            "SurveyID": "SV_9HK648eZkIQNoYR",
+            "ProjectCategory": "CORE",
+            "ProjectType": null,
+            "CompositionType": null,
+            "ContentBundle": null
+        },
+        "BrandBaseURL": "https://rowan.co1.qualtrics.com"
+    }
+}
