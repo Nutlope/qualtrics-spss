@@ -1,2 +1,0 @@
-This is a test file.
-We'll use this file for the zip tutorial.
