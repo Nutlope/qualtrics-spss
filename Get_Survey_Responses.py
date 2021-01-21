@@ -1,5 +1,3 @@
-# Python 3
-
 import requests
 import zipfile
 import json
@@ -20,12 +18,7 @@ with open('surveys.csv', 'r') as f:
     for row in reader:
         surveys_dict[row[0]] = {'state_survey_name': row[1],
                                 'state_survey_id': row[2]}
-
-for key, value in surveys_dict.items():
-    print("{} is the survey Id for the {} state".format(
-        value['state_survey_id'], key))
-
-# the dictionary is ready
+# the dictionary is now ready
 
 
 def exportSurvey(apiToken, surveyId, dataCenter, fileFormat):
@@ -79,8 +72,8 @@ def exportSurvey(apiToken, surveyId, dataCenter, fileFormat):
 
     # Step 4: Unzipping the file
     zipfile.ZipFile(io.BytesIO(requestDownload.content)
-                    ).extractall("c:/MyNewQualtricsDownload")
-    print('Complete')
+                    ).extractall("./SPSS_Surveys")
+    print('Complete\n')
 
 
 def main():
