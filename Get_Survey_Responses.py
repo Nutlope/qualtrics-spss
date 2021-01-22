@@ -80,8 +80,19 @@ def main():
     # Put states here that are empty
     emptyStates = ['AK', 'AL', 'CT', 'GA', 'ID', 'IN', 'MI',
                'MO', 'NE', 'NY', 'OK', 'SC', 'SD', 'VT', 'WV']
+    i = 1
+    # Filepath to the folder with all SPSS files
+    filePath = "C:\\Users\\Home\\Desktop\\Coding\\Qualtrics_SPSS_Surveys\\SPSS_Surveys"
+    outputFile = open('FinalSyntax.sps','w')
+    
     for key, value in surveys_dict.items():
         if key not in emptyStates:
+            outputFile.write('GET\n')
+            outputFile.write('  /FILE="{}\\STATE LEADER SURVEY_ Supporting Immigrant Families (2020-2021) - {}.sav".\n'.format(filePath, key))
+            outputFile.write("DATASET NAME DataSet{}.\n".format(i))
+            outputFile.write('\n')
+            i += 1
+
             surveyId = value['state_survey_id']
             fileFormat = "spss"
             dataCenter = "iad1"
@@ -100,7 +111,21 @@ def main():
                 sys.exit(2)
 
             exportSurvey(apiToken, surveyId, dataCenter, fileFormat)
+    outputFile.write("DATASET ACTIVATE DataSet1.\n")
+    outputFile.write("ADD FILES /FILE=*\n")
 
+    j = 2
+
+    while j < 51 - len(emptyStates):
+        if j == 50 - len(emptyStates):
+            outputFile.write("  /FILE=DataSet{}.\n".format(j))
+            break
+        outputFile.write("  /FILE=DataSet{}\n".format(j))
+        j += 1
+
+    outputFile.write("EXECUTE.\n")
+
+    outputFile.close()
 
 if __name__ == "__main__":
     main()
