@@ -77,26 +77,29 @@ def exportSurvey(apiToken, surveyId, dataCenter, fileFormat):
 
 
 def main():
-
+    # Put states here that are empty
+    emptyStates = ['AK', 'AL', 'CT', 'GA', 'ID', 'IN', 'MI',
+               'MO', 'NE', 'NY', 'OK', 'SC', 'SD', 'VT', 'WV']
     for key, value in surveys_dict.items():
-        surveyId = value['state_survey_id']
-        fileFormat = "spss"
-        dataCenter = "iad1"
-        apiToken = "1IoQvw8DhEzm3HdKNQoqSC90iSoIEIDqohoFWFA0"
+        if key not in emptyStates:
+            surveyId = value['state_survey_id']
+            fileFormat = "spss"
+            dataCenter = "iad1"
+            apiToken = "1IoQvw8DhEzm3HdKNQoqSC90iSoIEIDqohoFWFA0"
 
-        if fileFormat not in ["csv", "tsv", "spss"]:
-            print('fileFormat must be either csv, tsv, or spss')
-            sys.exit(2)
+            if fileFormat not in ["csv", "tsv", "spss"]:
+                print('fileFormat must be either csv, tsv, or spss')
+                sys.exit(2)
 
-        r = re.compile('^SV_.*')
+            r = re.compile('^SV_.*')
 
-        m = r.match(surveyId)
+            m = r.match(surveyId)
 
-        if not m:
-            print("survey Id must match ^SV_.*")
-            sys.exit(2)
+            if not m:
+                print("survey Id must match ^SV_.*")
+                sys.exit(2)
 
-        exportSurvey(apiToken, surveyId, dataCenter, fileFormat)
+            exportSurvey(apiToken, surveyId, dataCenter, fileFormat)
 
 
 if __name__ == "__main__":

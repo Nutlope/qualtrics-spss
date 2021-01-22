@@ -17,6 +17,7 @@ emptyStates = ['AK', 'AL', 'CT', 'GA', 'ID', 'IN', 'MI',
                'MO', 'NE', 'NY', 'OK', 'SC', 'SD', 'VT', 'WV']
 i = 1
 
+# Filepath to the folder with all SPSS files
 filePath = "C:\\Users\\Home\\Desktop\\Coding\\Qualtrics_SPSS_Surveys\\SPSS_Surveys"
 
 for key, value in surveys_dict.items():
