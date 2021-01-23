@@ -6,27 +6,24 @@ import os
 import sys
 import re
 import csv
+import constants
 
-# Load the csv file (which contains the list of all survey IDs, along with State name & stae survey name) to a dictionary
-# open the file 'surveys.csv  for reading its content and assign it to f
+# Create a dictionary with data from surveys.csv (user_generated_name, survey_name, survey_qualtrics_id)
 with open('surveys.csv', 'r') as f:
     reader = csv.reader(f)
     surveys_dict = {}
-    next(f)
-    # state_id, state_survey_name, state_survey_id
+    next(f) # skip header line
 
     for row in reader:
         surveys_dict[row[0]] = {'state_survey_name': row[1],
-                                'state_survey_id': row[2]}
-# the dictionary is now ready
-
+                                'survey_qualtrics_id': row[2]}
 
 def exportSurvey(apiToken, surveyId, dataCenter, fileFormat):
 
     # Setting static parameters
     requestCheckProgress = 0.0
     progressStatus = "inProgress"
-    baseUrl = "https://{0}.qualtrics.com/API/v3/surveys/{1}/export-responses/".format(
+    baseUrl = "https://{}.qualtrics.com/API/v3/surveys/{}/export-responses/".format(
         dataCenter, surveyId)
 
     headers = {
@@ -61,7 +58,6 @@ def exportSurvey(apiToken, surveyId, dataCenter, fileFormat):
 
     # step 2.2: Get the file id
     # Once the export is complete, use the fileId field in the result object from Get Response Export Progress
-
     fileId = requestCheckResponse.json()["result"]["fileId"]
     print(fileId)
 
@@ -75,42 +71,46 @@ def exportSurvey(apiToken, surveyId, dataCenter, fileFormat):
                     ).extractall("./SPSS_Surveys")
     print('Complete\n')
 
-
 def main():
-    # Put states here that are empty
+    # Put the user_generated_name you want to exclude (if any)
     emptyStates = ['AK', 'AL', 'CT', 'GA', 'ID', 'IN', 'MI',
                'MO', 'NE', 'NY', 'OK', 'SC', 'SD', 'VT', 'WV']
-    i = 1
-    # Filepath to the folder with all SPSS files
+    
+    # Filepath to the folder where all files (CSV or SPSS) will be created
     filePath = "C:\\Users\\Home\\Desktop\\Coding\\Qualtrics_SPSS_Surveys\\SPSS_Surveys"
+    
+    # Output file for Scheme script (ONLY RELEVANT FOR SPSS)
     outputFile = open('FinalSyntax.sps','w')
     
+    # Name of files created
+    surveyName = "\\STATE LEADER SURVEY_ Supporting Immigrant Families (2020-2021) - " 
+
+    i = 1
     for key, value in surveys_dict.items():
         if key not in emptyStates:
             outputFile.write('GET\n')
-            outputFile.write('  /FILE="{}\\STATE LEADER SURVEY_ Supporting Immigrant Families (2020-2021) - {}.sav".\n'.format(filePath, key))
+            outputFile.write('  /FILE="{}{}{}.sav".\n'.format(filePath, surveyName, key))
             outputFile.write("DATASET NAME DataSet{}.\n".format(i))
             outputFile.write('\n')
             i += 1
 
-            surveyId = value['state_survey_id']
-            fileFormat = "spss"
-            dataCenter = "iad1"
-            apiToken = "1IoQvw8DhEzm3HdKNQoqSC90iSoIEIDqohoFWFA0"
+            surveyId = value['survey_qualtrics_id']
+            fileFormat = constants.fileFormat
+            dataCenter = constants.dataCenter
+            apiToken = constants.apiToken
 
             if fileFormat not in ["csv", "tsv", "spss"]:
                 print('fileFormat must be either csv, tsv, or spss')
                 sys.exit(2)
 
             r = re.compile('^SV_.*')
-
             m = r.match(surveyId)
-
             if not m:
                 print("survey Id must match ^SV_.*")
                 sys.exit(2)
 
             exportSurvey(apiToken, surveyId, dataCenter, fileFormat)
+
     outputFile.write("DATASET ACTIVATE DataSet1.\n")
     outputFile.write("ADD FILES /FILE=*\n")
 
