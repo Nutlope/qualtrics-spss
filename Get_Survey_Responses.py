@@ -15,8 +15,7 @@ with open('surveys.csv', 'r') as f:
     next(f) # skip header line
 
     for row in reader:
-        surveys_dict[row[0]] = {'state_survey_name': row[1],
-                                'survey_qualtrics_id': row[2]}
+        surveys_dict[row[0]] = {'state_survey_name': row[1],'survey_qualtrics_id': row[2]}
 
 def exportSurvey(apiToken, surveyId, dataCenter, fileFormat):
 
@@ -24,7 +23,6 @@ def exportSurvey(apiToken, surveyId, dataCenter, fileFormat):
     requestCheckProgress = 0.0
     progressStatus = "inProgress"
     baseUrl = "https://{}.qualtrics.com/API/v3/surveys/{}/export-responses/".format(dataCenter, surveyId)
-
     headers = {"content-type": "application/json","x-api-token": apiToken}
 
     # Step 1: Creating Data Export - POST request to qualtrics to send data
@@ -75,8 +73,9 @@ def main():
     surveyName = "\\STATE LEADER SURVEY_ Supporting Immigrant Families (2020-2021) - " 
 
     i = 1
+    # Creating Scheme Script and each SPSS file
     for key, value in surveys_dict.items():
-        if key not in emptyStates:
+        if key not in emptyStates and i < 5:
             outputFile.write('GET\n')
             outputFile.write('  /FILE="{}{}{}.sav".\n'.format(filePath, surveyName, key))
             outputFile.write("DATASET NAME DataSet{}.\n".format(i))
@@ -113,7 +112,6 @@ def main():
         j += 1
 
     outputFile.write("EXECUTE.\n")
-
     outputFile.close()
 
 if __name__ == "__main__":
