@@ -8,6 +8,8 @@ import re
 import csv
 import constants
 
+# TODO: Delete all the crap that gets printed at the end
+
 # Create a dictionary with data from surveys.csv (user_generated_name, survey_name, survey_qualtrics_id)
 with open('surveys.csv', 'r') as f:
     reader = csv.reader(f)
@@ -75,7 +77,7 @@ def main():
     i = 1
     # Creating Scheme Script and each SPSS file
     for key, value in surveys_dict.items():
-        if key not in emptyStates and i < 5:
+        if key not in emptyStates and i < 5: # TODO: take this out at the end
             outputFile.write('GET\n')
             outputFile.write('  /FILE="{}{}{}.sav".\n'.format(filePath, surveyName, key))
             outputFile.write("DATASET NAME DataSet{}.\n".format(i))
