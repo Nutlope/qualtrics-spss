@@ -4,6 +4,7 @@ import pandas as pd
 import os
 
 directory = os.fsencode("./SPSS_Surveys")
+populated = 0
 
 for file in os.listdir(directory):
     fileName = os.fsdecode(file)
@@ -31,8 +32,16 @@ for file in os.listdir(directory):
 
     df.reset_index(level=0, drop=True, inplace=True) # Reset indices - Important
     print("it worked")
-    # TODO: Append to a master dataframe
-    print(df)
-    pyreadstat.write_sav(df, fullFileName) # Write the new SPSS changes back to the same file
+    
+    # Append each to a master dataframe
+    if populated == 1:
+        dfMaster = dfMaster.append(df, ignore_index=True)
+    if populated == 0:
+        dfMaster = df
+        populated = 1
+    
+    # Write the new SPSS changes back to the same file
+    pyreadstat.write_sav(df, fullFileName) 
 
-# TODO: write master df to a final SPSS file
+# Write master df to a final SPSS file
+pyreadstat.write_sav(dfMaster, "./finalFilteredSPSS.sav")
