@@ -62,9 +62,6 @@ def exportSurvey(apiToken, surveyId, dataCenter, fileFormat):
     print('Complete\n')
 
 def main():
-    # Put the user_generated_name you want to exclude (if any)
-    emptyStates = ['AK', 'AL', 'CT', 'GA', 'ID', 'IN', 'MI','MO', 'NE', 'NY', 'OK', 'SC', 'SD', 'VT', 'WV']
-    
     # Filepath to the folder where all files (CSV or SPSS) will be created
     filePath = "C:\\Users\\Home\\Desktop\\Coding\\Qualtrics_SPSS_Surveys\\SPSS_Surveys"
     
@@ -77,37 +74,36 @@ def main():
     i = 1
     # Creating Scheme Script and each SPSS file
     for key, value in surveys_dict.items():
-        if key not in emptyStates and i < 5: # TODO: take this out at the end
-            outputFile.write('GET\n')
-            outputFile.write('  /FILE="{}{}{}.sav".\n'.format(filePath, surveyName, key))
-            outputFile.write("DATASET NAME DataSet{}.\n".format(i))
-            outputFile.write('\n')
-            i += 1
+        outputFile.write('GET\n')
+        outputFile.write('  /FILE="{}{}{}.sav".\n'.format(filePath, surveyName, key))
+        outputFile.write("DATASET NAME DataSet{}.\n".format(i))
+        outputFile.write('\n')
+        i += 1
 
-            surveyId = value['survey_qualtrics_id']
-            fileFormat = constants.fileFormat
-            dataCenter = constants.dataCenter
-            apiToken = constants.apiToken
+        surveyId = value['survey_qualtrics_id']
+        fileFormat = constants.fileFormat
+        dataCenter = constants.dataCenter
+        apiToken = constants.apiToken
 
-            # Error handling
-            if fileFormat not in ["csv", "tsv", "spss"]:
-                print('fileFormat must be either csv, tsv, or spss')
-                sys.exit(2)
-            r = re.compile('^SV_.*')
-            m = r.match(surveyId)
-            if not m:
-                print("survey Id must match ^SV_.*")
-                sys.exit(2)
+        # Error handling
+        if fileFormat not in ["csv", "tsv", "spss"]:
+            print('fileFormat must be either csv, tsv, or spss')
+            sys.exit(2)
+        r = re.compile('^SV_.*')
+        m = r.match(surveyId)
+        if not m:
+            print("survey Id must match ^SV_.*")
+            sys.exit(2)
 
-            exportSurvey(apiToken, surveyId, dataCenter, fileFormat)
+        exportSurvey(apiToken, surveyId, dataCenter, fileFormat)
 
     outputFile.write("DATASET ACTIVATE DataSet1.\n")
     outputFile.write("ADD FILES /FILE=*\n")
 
     j = 2
 
-    while j < 51 - len(emptyStates):
-        if j == 50 - len(emptyStates):
+    while j < 51:
+        if j == 50:
             outputFile.write("  /FILE=DataSet{}.\n".format(j))
             break
         outputFile.write("  /FILE=DataSet{}\n".format(j))
