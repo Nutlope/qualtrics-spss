@@ -23,32 +23,24 @@ def exportSurvey(apiToken, surveyId, dataCenter, fileFormat):
     # Setting static parameters
     requestCheckProgress = 0.0
     progressStatus = "inProgress"
-    baseUrl = "https://{}.qualtrics.com/API/v3/surveys/{}/export-responses/".format(
-        dataCenter, surveyId)
+    baseUrl = "https://{}.qualtrics.com/API/v3/surveys/{}/export-responses/".format(dataCenter, surveyId)
 
-    headers = {
-        "content-type": "application/json",
-        "x-api-token": apiToken,
-    }
+    headers = {"content-type": "application/json","x-api-token": apiToken}
 
-    # Step 1: Creating Data Export
-    downloadRequestUrl = baseUrl
+    # Step 1: Creating Data Export - POST request to qualtrics to send data
     downloadRequestPayload = '{"format":"' + fileFormat + '"}'
-    downloadRequestResponse = requests.request(
-        "POST", downloadRequestUrl, data=downloadRequestPayload, headers=headers)
+    downloadRequestResponse = requests.request("POST", baseUrl, data=downloadRequestPayload, headers=headers)
     progressId = downloadRequestResponse.json()["result"]["progressId"]
     print(downloadRequestResponse.text)
 
-    # Step 2: Checking on Data Export Progress and waiting until export is ready
+    # Step 2: Checking on Data Export Progress and waiting until export is ready - GET request to qualtrics to get data
     while progressStatus != "complete" and progressStatus != "failed":
         # The result object will contain a status value. Keep looping until status has the value complete.
 
         print("progressStatus=", progressStatus)
         requestCheckUrl = baseUrl + progressId
-        requestCheckResponse = requests.request(
-            "GET", requestCheckUrl, headers=headers)
-        requestCheckProgress = requestCheckResponse.json()[
-            "result"]["percentComplete"]
+        requestCheckResponse = requests.request("GET", requestCheckUrl, headers=headers)
+        requestCheckProgress = requestCheckResponse.json()["result"]["percentComplete"]
         print("Download is " + str(requestCheckProgress) + " complete")
         progressStatus = requestCheckResponse.json()["result"]["status"]
 
@@ -63,18 +55,15 @@ def exportSurvey(apiToken, surveyId, dataCenter, fileFormat):
 
     # Step 3: Downloading file
     requestDownloadUrl = baseUrl + fileId + '/file'
-    requestDownload = requests.request(
-        "GET", requestDownloadUrl, headers=headers, stream=True)
+    requestDownload = requests.request("GET", requestDownloadUrl, headers=headers, stream=True)
 
     # Step 4: Unzipping the file
-    zipfile.ZipFile(io.BytesIO(requestDownload.content)
-                    ).extractall("./SPSS_Surveys")
+    zipfile.ZipFile(io.BytesIO(requestDownload.content)).extractall("./SPSS_Surveys")
     print('Complete\n')
 
 def main():
     # Put the user_generated_name you want to exclude (if any)
-    emptyStates = ['AK', 'AL', 'CT', 'GA', 'ID', 'IN', 'MI',
-               'MO', 'NE', 'NY', 'OK', 'SC', 'SD', 'VT', 'WV']
+    emptyStates = ['AK', 'AL', 'CT', 'GA', 'ID', 'IN', 'MI','MO', 'NE', 'NY', 'OK', 'SC', 'SD', 'VT', 'WV']
     
     # Filepath to the folder where all files (CSV or SPSS) will be created
     filePath = "C:\\Users\\Home\\Desktop\\Coding\\Qualtrics_SPSS_Surveys\\SPSS_Surveys"
@@ -99,10 +88,10 @@ def main():
             dataCenter = constants.dataCenter
             apiToken = constants.apiToken
 
+            # Error handling
             if fileFormat not in ["csv", "tsv", "spss"]:
                 print('fileFormat must be either csv, tsv, or spss')
                 sys.exit(2)
-
             r = re.compile('^SV_.*')
             m = r.match(surveyId)
             if not m:
