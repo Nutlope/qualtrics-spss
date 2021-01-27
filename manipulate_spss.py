@@ -1,6 +1,5 @@
 import pyreadstat
 import numpy as np
-import pandas as pd
 import os
 
 directory = os.fsencode("./SPSS_Surveys")

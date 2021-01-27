@@ -1,33 +1,23 @@
 # Qualtrics script
 
-This Python script can query Qualtrics for all surveys and extract them as SPSS or CSV files. A Scheme script was also generated to combine all SPSS files into one (only relevant for SPSS files).
+This Python script can query Qualtrics for all surveys and extract them all into a single SPSS file. It can also filter based on any column values.
 
 ## Motivation
 
-My mom had 50 surveys on Qualtrics that she needed to manually go through each week and update a spreadsheet with responses. This took a few hours every week and was repetitive so I decided write a script that queried qualtrics for all the surveys she needed and generated a master excel file with all the data. She also wanted the data in a statistics software called SPSS to analyze it, so I ended up generating a Scheme script to create a master SPSS file as well.
+My mom had 50 surveys on Qualtrics that she needed to manually go through each week and update a spreadsheet with responses. This took ~5 hours every week for 10 months and was repetitive so I decided write a script that queried qualtrics for all the surveys she needed. Using a the pyreadstat module, I was also able to filter responses to only those in a certain time period and store all the results in a single SPSS file for my mom to analyze.
 
 ## How to Run
 1. Make a surveys.csv file with the format of: id (user generated), survey_name, survey_qualtrics_id
-2. Update constants.py with your Qualtrics API key and other things.
-3. Run the Get_Survey_Responses.py with an excel file containing all the survey IDs in the 3rd column
-4. An SPSS file will be generated for each survey as well as a Scheme script to combine these SPSS files
-5. Run the Scheme script in SPSS to generate one final file.
+2. Update constants.py with your Qualtrics API key, dataCenter, and file format.
+3. Run Get_Survey_Responses.py (make sure surveys.csv contains survey IDs in 3rd column).
+4. A new folder will be created with an SPSS file for each survey. 
+5. Run manipulate_spss.py to combine all SPSS files into one master SPSS file with any specific filters (example shown for date filtering)
 
 ## Dependencies
+- pyreadstat
+- numpy
 - requests
 - zipfile
-- json
-- io
-- os
-- sys
-- re
-- csv
-
-## Future work
-- [x] Generate a Scheme script to combine all SPSS files into one
-- [x] Refactor to 1 script with everything
-- [ ] Generalize this generate a master excel file instead of just SPSS 
-- [ ] Split into two scripts, one for excel and one for SPSS for ease of use
 
 ## Contact
 If you have any questions or would like someone to modify this script for your specific scenario, feel free to reach out to me at hassan@hey.com
