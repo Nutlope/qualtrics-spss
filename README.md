@@ -4,7 +4,7 @@ This Python script can query Qualtrics for all surveys and extract them all into
 
 ## Motivation
 
-My mom had 50 surveys on Qualtrics that she needed to manually go through each week and update a spreadsheet with responses. This took ~5 hours every week for 10 months and was repetitive so I decided write a script that queried qualtrics for all the surveys she needed. Using a the pyreadstat module, I was also able to filter responses to only those in a certain time period and store all the results in a single SPSS file for my mom to analyze.
+My mom had 50 surveys on Qualtrics that she needed to manually go through each week and update a spreadsheet with responses. This took ~5 hours every week for 10 months and was repetitive so I decided write a script that queried qualtrics for all the surveys she needed. Using the pyreadstat module, I was also able to filter responses to only those in a certain time period and store all the results in a single SPSS file for my mom to analyze.
 
 ## How to Run
 1. Make a surveys.csv file with the format of: id (user generated), survey_name, survey_qualtrics_id
